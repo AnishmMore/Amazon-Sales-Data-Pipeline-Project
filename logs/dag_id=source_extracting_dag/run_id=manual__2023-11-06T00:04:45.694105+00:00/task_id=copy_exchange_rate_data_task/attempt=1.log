@@ -1,0 +1,27 @@
+[2023-11-05T16:05:06.039-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: source_extracting_dag.copy_exchange_rate_data_task manual__2023-11-06T00:04:45.694105+00:00 [queued]>
+[2023-11-05T16:05:06.043-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: source_extracting_dag.copy_exchange_rate_data_task manual__2023-11-06T00:04:45.694105+00:00 [queued]>
+[2023-11-05T16:05:06.043-0800] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T16:05:06.044-0800] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-05T16:05:06.044-0800] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T16:05:06.048-0800] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): copy_exchange_rate_data_task> on 2023-11-06 00:04:45.694105+00:00
+[2023-11-05T16:05:06.051-0800] {standard_task_runner.py:55} INFO - Started process 91407 to run task
+[2023-11-05T16:05:06.054-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'source_extracting_dag', 'copy_exchange_rate_data_task', 'manual__2023-11-06T00:04:45.694105+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/source_extract_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpkyefg6t_']
+[2023-11-05T16:05:06.056-0800] {standard_task_runner.py:83} INFO - Job 114: Subtask copy_exchange_rate_data_task
+[2023-11-05T16:05:06.078-0800] {task_command.py:388} INFO - Running <TaskInstance: source_extracting_dag.copy_exchange_rate_data_task manual__2023-11-06T00:04:45.694105+00:00 [running]> on host anishs-air.lan
+[2023-11-05T16:05:06.095-0800] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=source_extracting_dag
+AIRFLOW_CTX_TASK_ID=copy_exchange_rate_data_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-06T00:04:45.694105+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-06T00:04:45.694105+00:00
+[2023-11-05T16:05:06.095-0800] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-11-05T16:05:06.096-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cp /Users/anishmore/airflow/data/snowpark-example/end2end-sample-data/exchange-rate-data.csv /Users/anishmore/airflow/sources']
+[2023-11-05T16:05:06.099-0800] {subprocess.py:86} INFO - Output:
+[2023-11-05T16:05:06.104-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-05T16:05:06.110-0800] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=source_extracting_dag, task_id=copy_exchange_rate_data_task, execution_date=20231106T000445, start_date=20231106T000506, end_date=20231106T000506
+[2023-11-05T16:05:06.159-0800] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-11-05T16:05:06.167-0800] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

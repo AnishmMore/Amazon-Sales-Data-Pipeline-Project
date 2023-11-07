@@ -1,0 +1,70 @@
+[2023-11-05T15:53:52.360-0800] {processor.py:153} INFO - Started process (PID=90017) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:53:52.363-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:53:52.363-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:52.363-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:53:52.569-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:53:52.850-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:52.850-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:53:52.857-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:52.857-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:53:52.866-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.507 seconds
+[2023-11-05T15:54:38.784-0800] {processor.py:153} INFO - Started process (PID=90114) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:54:38.790-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:54:38.790-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:38.790-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:54:38.991-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:54:39.238-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:39.238-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:39.244-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:39.244-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:54:39.250-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.467 seconds
+[2023-11-05T15:55:10.361-0800] {processor.py:153} INFO - Started process (PID=90174) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:10.366-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:55:10.366-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:10.366-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:10.547-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:10.790-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:10.790-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:10.796-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:10.796-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:55:10.803-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.443 seconds
+[2023-11-05T15:55:42.129-0800] {processor.py:153} INFO - Started process (PID=90224) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:42.136-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:55:42.136-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:42.136-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:42.338-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:55:42.580-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:42.580-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:42.586-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:42.586-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:55:42.592-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.464 seconds
+[2023-11-05T15:56:13.682-0800] {processor.py:153} INFO - Started process (PID=90283) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:13.687-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:56:13.687-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:13.687-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:13.872-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:14.115-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:14.115-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:14.121-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:14.121-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:56:14.127-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.446 seconds
+[2023-11-05T15:56:45.095-0800] {processor.py:153} INFO - Started process (PID=90325) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:45.107-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:56:45.107-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:45.107-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:45.354-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:56:45.584-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:45.584-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:45.590-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:45.590-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:56:45.597-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.502 seconds
+[2023-11-05T15:57:17.508-0800] {processor.py:153} INFO - Started process (PID=90386) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:17.514-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:57:17.514-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:17.514-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:17.709-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:17.952-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:17.952-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:17.958-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:17.958-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:57:17.965-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.457 seconds
+[2023-11-05T15:57:49.238-0800] {processor.py:153} INFO - Started process (PID=90437) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:49.241-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:57:49.241-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:49.241-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:49.410-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:57:49.649-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:49.649-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:49.656-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:49.656-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:57:49.662-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.427 seconds
+[2023-11-05T15:58:20.370-0800] {processor.py:153} INFO - Started process (PID=90571) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:20.373-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:58:20.374-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:20.374-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:20.574-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:20.819-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:20.818-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:20.825-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:20.825-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:58:20.832-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.463 seconds
+[2023-11-05T15:58:52.815-0800] {processor.py:153} INFO - Started process (PID=90624) to work on /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:52.817-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/autmate_transform_dag.py for tasks to queue
+[2023-11-05T15:58:52.817-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:52.817-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:53.005-0800] {processor.py:753} INFO - DAG(s) dict_keys(['transform_dag']) retrieved from /Users/anishmore/airflow/dags/autmate_transform_dag.py
+[2023-11-05T15:58:53.246-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:53.246-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:53.252-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:53.252-0800] {dag.py:3437} INFO - Setting next_dagrun for transform_dag to None, run_after=None
+[2023-11-05T15:58:53.259-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/autmate_transform_dag.py took 0.445 seconds

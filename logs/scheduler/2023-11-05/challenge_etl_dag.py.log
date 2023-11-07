@@ -1,0 +1,70 @@
+[2023-11-05T15:53:50.319-0800] {processor.py:153} INFO - Started process (PID=90008) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:53:50.321-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:53:50.322-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:50.322-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:53:50.497-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:53:50.739-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:50.739-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:53:50.745-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:50.745-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:53:50.753-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.434 seconds
+[2023-11-05T15:54:36.154-0800] {processor.py:153} INFO - Started process (PID=90095) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:54:36.156-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:54:36.157-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:36.157-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:54:36.399-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:54:36.723-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:36.723-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:36.730-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:36.730-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:54:36.738-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.584 seconds
+[2023-11-05T15:55:08.150-0800] {processor.py:153} INFO - Started process (PID=90164) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:08.153-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:55:08.153-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:08.153-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:08.349-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:08.694-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:08.694-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:08.703-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:08.703-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:55:08.710-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.561 seconds
+[2023-11-05T15:55:40.237-0800] {processor.py:153} INFO - Started process (PID=90219) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:40.240-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:55:40.240-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:40.240-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:40.456-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:55:40.802-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:40.802-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:40.808-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:40.808-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:55:40.814-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.577 seconds
+[2023-11-05T15:56:11.565-0800] {processor.py:153} INFO - Started process (PID=90280) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:11.568-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:56:11.568-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:11.568-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:11.744-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:12.033-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:12.033-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:12.039-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:12.039-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:56:12.046-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.481 seconds
+[2023-11-05T15:56:43.018-0800] {processor.py:153} INFO - Started process (PID=90318) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:43.020-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:56:43.020-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:43.020-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:43.187-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:56:43.485-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:43.485-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:43.491-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:43.491-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:56:43.497-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.480 seconds
+[2023-11-05T15:57:15.194-0800] {processor.py:153} INFO - Started process (PID=90377) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:15.202-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:57:15.202-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:15.202-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:15.423-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:15.744-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:15.744-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:15.752-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:15.752-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:57:15.760-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.568 seconds
+[2023-11-05T15:57:47.123-0800] {processor.py:153} INFO - Started process (PID=90436) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:47.129-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:57:47.129-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:47.129-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:47.293-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:57:47.592-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:47.592-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:47.598-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:47.598-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:57:47.604-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.483 seconds
+[2023-11-05T15:58:18.506-0800] {processor.py:153} INFO - Started process (PID=90566) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:18.509-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:58:18.509-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:18.509-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:18.703-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:19.026-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:19.025-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:19.033-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:19.033-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:58:19.039-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.534 seconds
+[2023-11-05T15:58:50.413-0800] {processor.py:153} INFO - Started process (PID=90620) to work on /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:50.420-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/challenge_etl_dag.py for tasks to queue
+[2023-11-05T15:58:50.420-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:50.420-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:50.814-0800] {processor.py:753} INFO - DAG(s) dict_keys(['challenge_dag']) retrieved from /Users/anishmore/airflow/dags/challenge_etl_dag.py
+[2023-11-05T15:58:51.126-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:51.126-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:51.133-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:51.133-0800] {dag.py:3437} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2023-11-05T15:58:51.147-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/challenge_etl_dag.py took 0.735 seconds

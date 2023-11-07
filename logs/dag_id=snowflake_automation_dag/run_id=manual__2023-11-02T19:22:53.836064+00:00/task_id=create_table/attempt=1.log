@@ -1,0 +1,2 @@
+[2023-11-02T12:26:37.167-0700] {taskinstance.py:1073} INFO - Dependencies not met for <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:22:53.836064+00:00 [skipped]>, dependency 'Task Instance State' FAILED: Task is in the 'skipped' state.
+[2023-11-02T12:26:37.177-0700] {local_task_job.py:147} INFO - Task is not able to be run

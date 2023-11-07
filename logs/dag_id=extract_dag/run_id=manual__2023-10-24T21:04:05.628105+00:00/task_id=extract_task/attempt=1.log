@@ -1,0 +1,34 @@
+[2023-10-24T14:04:07.279-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: extract_dag.extract_task manual__2023-10-24T21:04:05.628105+00:00 [queued]>
+[2023-10-24T14:04:07.283-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: extract_dag.extract_task manual__2023-10-24T21:04:05.628105+00:00 [queued]>
+[2023-10-24T14:04:07.283-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T14:04:07.283-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-10-24T14:04:07.283-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T14:04:07.287-0700] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): extract_task> on 2023-10-24 21:04:05.628105+00:00
+[2023-10-24T14:04:07.289-0700] {standard_task_runner.py:55} INFO - Started process 4999 to run task
+[2023-10-24T14:04:07.291-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-10-24T21:04:05.628105+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/automate_extraction_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmp8tiqsynm']
+[2023-10-24T14:04:07.292-0700] {standard_task_runner.py:83} INFO - Job 19: Subtask extract_task
+[2023-10-24T14:04:07.314-0700] {task_command.py:388} INFO - Running <TaskInstance: extract_dag.extract_task manual__2023-10-24T21:04:05.628105+00:00 [running]> on host anishs-macbook-air.local
+[2023-10-24T14:04:07.332-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=extract_dag
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-24T21:04:05.628105+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-24T21:04:05.628105+00:00
+[2023-10-24T14:04:07.332-0700] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-10-24T14:04:07.333-0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O /Users/anishmore/airflow/temp/manual']
+[2023-10-24T14:04:07.336-0700] {subprocess.py:86} INFO - Output:
+[2023-10-24T14:04:07.345-0700] {subprocess.py:93} INFO - /Users/anishmore/airflow/temp/manual: Is a directory
+[2023-10-24T14:04:07.346-0700] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-10-24T14:04:07.348-0700] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-10-24T14:04:07.350-0700] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=extract_dag, task_id=extract_task, execution_date=20231024T210405, start_date=20231024T210407, end_date=20231024T210407
+[2023-10-24T14:04:07.354-0700] {standard_task_runner.py:100} ERROR - Failed to execute job 19 for task extract_task (Bash command failed. The command returned a non-zero exit code 1.; 4999)
+[2023-10-24T14:04:07.396-0700] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-10-24T14:04:07.402-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

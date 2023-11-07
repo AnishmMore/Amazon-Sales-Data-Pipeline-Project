@@ -1,0 +1,23 @@
+[2023-10-24T20:39:12.269-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: challenge_dag.transform_task manual__2023-10-25T03:39:05.963868+00:00 [queued]>
+[2023-10-24T20:39:12.275-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: challenge_dag.transform_task manual__2023-10-25T03:39:05.963868+00:00 [queued]>
+[2023-10-24T20:39:12.275-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:39:12.275-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-10-24T20:39:12.275-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:39:12.280-0700] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): transform_task> on 2023-10-25 03:39:05.963868+00:00
+[2023-10-24T20:39:12.283-0700] {standard_task_runner.py:55} INFO - Started process 24130 to run task
+[2023-10-24T20:39:12.286-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'challenge_dag', 'transform_task', 'manual__2023-10-25T03:39:05.963868+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/challenge_etl_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpl9r6tyts']
+[2023-10-24T20:39:12.292-0700] {standard_task_runner.py:83} INFO - Job 33: Subtask transform_task
+[2023-10-24T20:39:12.319-0700] {task_command.py:388} INFO - Running <TaskInstance: challenge_dag.transform_task manual__2023-10-25T03:39:05.963868+00:00 [running]> on host anishs-air.lan
+[2023-10-24T20:39:12.336-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=challenge_dag
+AIRFLOW_CTX_TASK_ID=transform_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-25T03:39:05.963868+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-25T03:39:05.963868+00:00
+[2023-10-24T20:39:12.351-0700] {python.py:177} INFO - Done. Returned value was: None
+[2023-10-24T20:39:12.355-0700] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=challenge_dag, task_id=transform_task, execution_date=20231025T033905, start_date=20231025T033912, end_date=20231025T033912
+[2023-10-24T20:39:12.392-0700] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-10-24T20:39:12.399-0700] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

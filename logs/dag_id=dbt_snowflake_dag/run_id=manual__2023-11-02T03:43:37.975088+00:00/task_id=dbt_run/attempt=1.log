@@ -1,0 +1,47 @@
+[2023-11-01T20:43:39.743-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dbt_snowflake_dag.dbt_run manual__2023-11-02T03:43:37.975088+00:00 [queued]>
+[2023-11-01T20:43:39.747-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dbt_snowflake_dag.dbt_run manual__2023-11-02T03:43:37.975088+00:00 [queued]>
+[2023-11-01T20:43:39.747-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T20:43:39.747-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-01T20:43:39.747-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T20:43:39.752-0700] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): dbt_run> on 2023-11-02 03:43:37.975088+00:00
+[2023-11-01T20:43:39.754-0700] {standard_task_runner.py:55} INFO - Started process 2270 to run task
+[2023-11-01T20:43:39.756-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_snowflake_dag', 'dbt_run', 'manual__2023-11-02T03:43:37.975088+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/dbt_airflow_snowflake.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmp971mdis1']
+[2023-11-01T20:43:39.758-0700] {standard_task_runner.py:83} INFO - Job 81: Subtask dbt_run
+[2023-11-01T20:43:39.776-0700] {task_command.py:388} INFO - Running <TaskInstance: dbt_snowflake_dag.dbt_run manual__2023-11-02T03:43:37.975088+00:00 [running]> on host anishs-air.lan
+[2023-11-01T20:43:39.800-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dbt_snowflake_dag
+AIRFLOW_CTX_TASK_ID=dbt_run
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-02T03:43:37.975088+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-02T03:43:37.975088+00:00
+[2023-11-01T20:43:39.801-0700] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-11-01T20:43:39.801-0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dbt run --profiles-dir /Users/anishmore/airflow/dbt/data_pipeline/ --project-dir /Users/anishmore/airflow/dbt/data_pipeline/']
+[2023-11-01T20:43:39.805-0700] {subprocess.py:86} INFO - Output:
+[2023-11-01T20:43:41.008-0700] {subprocess.py:93} INFO - [0m03:43:41  Running with dbt=1.6.7
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO - [0m03:43:41  Encountered an error:
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO - Runtime Error
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO -   dbt cannot run because no profile was specified for this dbt project.
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO -   To specify a profile for this project, add a line like the this to
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO -   your dbt_project.yml file:
+[2023-11-01T20:43:41.010-0700] {subprocess.py:93} INFO - 
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO -   profile: [profile name]
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO - 
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO -   Here, [profile name] should be replaced with a profile name
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO -   defined in your profiles.yml file. You can find profiles.yml here:
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO - 
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO -   /Users/anishmore/.dbt/profiles.yml
+[2023-11-01T20:43:41.011-0700] {subprocess.py:93} INFO - 
+[2023-11-01T20:43:41.904-0700] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-11-01T20:43:41.909-0700] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-11-01T20:43:41.911-0700] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=dbt_snowflake_dag, task_id=dbt_run, execution_date=20231102T034337, start_date=20231102T034339, end_date=20231102T034341
+[2023-11-01T20:43:41.916-0700] {standard_task_runner.py:100} ERROR - Failed to execute job 81 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 2270)
+[2023-11-01T20:43:41.938-0700] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-01T20:43:41.947-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

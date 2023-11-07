@@ -1,0 +1,62 @@
+[2023-11-01T18:47:44.195-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dbt_snowflake_dag.customers_seed manual__2023-11-02T01:47:18.699280+00:00 [queued]>
+[2023-11-01T18:47:44.200-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dbt_snowflake_dag.customers_seed manual__2023-11-02T01:47:18.699280+00:00 [queued]>
+[2023-11-01T18:47:44.200-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T18:47:44.200-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-01T18:47:44.200-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T18:47:44.204-0700] {taskinstance.py:1300} INFO - Executing <Task(DbtSeedLocalOperator): customers_seed> on 2023-11-02 01:47:18.699280+00:00
+[2023-11-01T18:47:44.205-0700] {standard_task_runner.py:55} INFO - Started process 89358 to run task
+[2023-11-01T18:47:44.208-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_snowflake_dag', 'customers_seed', 'manual__2023-11-02T01:47:18.699280+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/dbt_airflow_snowflake.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpofuzvvqx']
+[2023-11-01T18:47:44.209-0700] {standard_task_runner.py:83} INFO - Job 41: Subtask customers_seed
+[2023-11-01T18:47:44.225-0700] {task_command.py:388} INFO - Running <TaskInstance: dbt_snowflake_dag.customers_seed manual__2023-11-02T01:47:18.699280+00:00 [running]> on host anishs-air.lan
+[2023-11-01T18:47:44.241-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dbt_snowflake_dag
+AIRFLOW_CTX_TASK_ID=customers_seed
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-02T01:47:18.699280+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-02T01:47:18.699280+00:00
+[2023-11-01T18:47:44.241-0700] {local.py:194} INFO - Cloning project to writable temp directory /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpb6d7os6o from /Users/anishmore/airflow/dbt/data_pipeline
+[2023-11-01T18:47:44.290-0700] {subprocess.py:60} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-11-01T18:47:44.291-0700] {subprocess.py:73} INFO - Running command: ['/opt/homebrew/bin/dbt', 'deps']
+[2023-11-01T18:47:44.295-0700] {subprocess.py:84} INFO - Command output:
+[2023-11-01T18:47:45.377-0700] {subprocess.py:94} INFO - [0m01:47:45  Running with dbt=1.6.7
+[2023-11-01T18:47:45.679-0700] {subprocess.py:94} INFO - [0m01:47:45  Installing dbt-labs/dbt_utils
+[2023-11-01T18:47:46.243-0700] {subprocess.py:94} INFO - [0m01:47:46  Installed from version 1.1.1
+[2023-11-01T18:47:46.244-0700] {subprocess.py:94} INFO - [0m01:47:46  Up to date!
+[2023-11-01T18:47:46.772-0700] {subprocess.py:98} INFO - Command exited with return code 0
+[2023-11-01T18:47:46.792-0700] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/operators/local.py", line 412, in execute
+    self.build_and_run_cmd(context=context, cmd_flags=cmd_flags)
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/operators/local.py", line 361, in build_and_run_cmd
+    result = self.run_command(cmd=dbt_cmd, env=env, context=context)
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/operators/local.py", line 215, in run_command
+    with self.profile_config.ensure_profile() as (profile_path, env_vars):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.12_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/config.py", line 176, in ensure_profile
+    profile_contents = self.profile_mapping.get_profile_file_contents(
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/base.py", line 146, in get_profile_file_contents
+    profile_vars = self.profile
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/snowflake/user_privatekey.py", line 68, in profile
+    **self.mapped_params,
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/base.py", line 209, in mapped_params
+    mapped_params[dbt_field] = self.get_dbt_value(dbt_field)
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/base.py", line 182, in get_dbt_value
+    value = self.conn.extra_dejson.get(airflow_field)
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/snowflake/user_privatekey.py", line 53, in conn
+    conn = super().conn
+  File "/opt/homebrew/lib/python3.10/site-packages/cosmos/profiles/base.py", line 49, in conn
+    conn = BaseHook.get_connection(self.conn_id)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/connection.py", line 435, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_conn` isn't defined
+[2023-11-01T18:47:46.795-0700] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=dbt_snowflake_dag, task_id=customers_seed, execution_date=20231102T014718, start_date=20231102T014744, end_date=20231102T014746
+[2023-11-01T18:47:46.798-0700] {standard_task_runner.py:100} ERROR - Failed to execute job 41 for task customers_seed (The conn_id `snowflake_conn` isn't defined; 89358)
+[2023-11-01T18:47:46.802-0700] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-01T18:47:46.811-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

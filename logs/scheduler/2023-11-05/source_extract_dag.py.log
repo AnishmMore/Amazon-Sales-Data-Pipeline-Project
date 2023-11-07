@@ -1,0 +1,74 @@
+[2023-11-05T15:53:44.196-0800] {processor.py:153} INFO - Started process (PID=89993) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:53:44.202-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:53:44.203-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.203-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:53:44.618-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:53:44.898-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.898-0800] {manager.py:504} INFO - Created Permission View: can delete on DAG:source_extracting_dag
+[2023-11-05T15:53:44.902-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.901-0800] {manager.py:504} INFO - Created Permission View: can read on DAG:source_extracting_dag
+[2023-11-05T15:53:44.904-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.904-0800] {manager.py:504} INFO - Created Permission View: can edit on DAG:source_extracting_dag
+[2023-11-05T15:53:44.904-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.904-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:53:44.909-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.909-0800] {dag.py:2711} INFO - Creating ORM DAG for source_extracting_dag
+[2023-11-05T15:53:44.913-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:53:44.913-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:53:44.920-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.725 seconds
+[2023-11-05T15:54:16.351-0800] {processor.py:153} INFO - Started process (PID=90045) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:16.353-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:54:16.354-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:16.354-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:16.538-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:16.790-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:16.790-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:16.800-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:16.800-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:54:16.808-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.458 seconds
+[2023-11-05T15:54:49.929-0800] {processor.py:153} INFO - Started process (PID=90130) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:49.932-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:54:49.932-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:49.932-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:50.133-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:54:50.369-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:50.368-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:50.375-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:50.375-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:54:50.381-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.453 seconds
+[2023-11-05T15:55:21.969-0800] {processor.py:153} INFO - Started process (PID=90193) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:21.975-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:55:21.976-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:21.976-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:22.158-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:22.397-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:22.397-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:22.405-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:22.405-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:55:22.411-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.444 seconds
+[2023-11-05T15:55:53.093-0800] {processor.py:153} INFO - Started process (PID=90255) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:53.095-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:55:53.095-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:53.095-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:53.302-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:55:53.564-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:53.564-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:53.572-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:53.572-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:55:53.581-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.489 seconds
+[2023-11-05T15:56:25.682-0800] {processor.py:153} INFO - Started process (PID=90301) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:25.689-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:56:25.690-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:25.690-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:25.876-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:26.128-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:26.128-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:26.135-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:26.135-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:56:26.141-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.460 seconds
+[2023-11-05T15:56:57.667-0800] {processor.py:153} INFO - Started process (PID=90349) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:57.670-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:56:57.670-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:57.670-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:57.836-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:56:58.077-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:58.077-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:58.083-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:58.083-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:56:58.090-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.424 seconds
+[2023-11-05T15:57:29.035-0800] {processor.py:153} INFO - Started process (PID=90400) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:57:29.040-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:57:29.040-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:29.040-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:57:29.215-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:57:29.454-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:29.454-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:29.461-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:29.461-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:57:29.468-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.434 seconds
+[2023-11-05T15:58:00.982-0800] {processor.py:153} INFO - Started process (PID=90487) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:00.989-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:58:00.989-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:00.989-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:01.152-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:01.393-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:01.392-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:01.399-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:01.399-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:58:01.406-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.425 seconds
+[2023-11-05T15:58:32.067-0800] {processor.py:153} INFO - Started process (PID=90596) to work on /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:32.074-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/source_extract_dag.py for tasks to queue
+[2023-11-05T15:58:32.074-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:32.074-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:32.257-0800] {processor.py:753} INFO - DAG(s) dict_keys(['source_extracting_dag']) retrieved from /Users/anishmore/airflow/dags/source_extract_dag.py
+[2023-11-05T15:58:32.499-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:32.499-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:32.506-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:32.506-0800] {dag.py:3437} INFO - Setting next_dagrun for source_extracting_dag to None, run_after=None
+[2023-11-05T15:58:32.512-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/source_extract_dag.py took 0.447 seconds

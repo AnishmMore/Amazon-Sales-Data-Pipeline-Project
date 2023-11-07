@@ -1,0 +1,46 @@
+[2023-10-23T18:25:12.057-0700] {processor.py:153} INFO - Started process (PID=63907) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:25:12.060-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:25:12.061-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.060-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:25:12.091-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:25:12.474-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.474-0700] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-10-23T18:25:12.480-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.480-0700] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2023-10-23T18:25:12.485-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.485-0700] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-10-23T18:25:12.486-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.485-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:25:12.491-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.490-0700] {dag.py:2711} INFO - Creating ORM DAG for tutorial
+[2023-10-23T18:25:12.508-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:12.508-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:25:12.508385+00:00, run_after=2023-10-24T01:25:12.508385+00:00
+[2023-10-23T18:25:12.516-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.459 seconds
+[2023-10-23T18:26:27.078-0700] {processor.py:153} INFO - Started process (PID=64128) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:26:27.084-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:26:27.084-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:27.084-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:26:27.095-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:26:27.411-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:27.410-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:26:27.417-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:27.417-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:26:27.416983+00:00, run_after=2023-10-24T01:26:27.416983+00:00
+[2023-10-23T18:26:27.423-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.346 seconds
+[2023-10-23T18:27:08.287-0700] {processor.py:153} INFO - Started process (PID=64217) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:08.293-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:27:08.293-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:08.293-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:08.304-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:08.625-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:08.625-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:27:08.631-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:08.631-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:27:08.631393+00:00, run_after=2023-10-24T01:27:08.631393+00:00
+[2023-10-23T18:27:08.638-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.352 seconds
+[2023-10-23T18:27:53.530-0700] {processor.py:153} INFO - Started process (PID=64295) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:53.532-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:27:53.532-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:53.532-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:53.549-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:27:53.869-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:53.869-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:27:53.875-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:27:53.875-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:27:53.875140+00:00, run_after=2023-10-24T01:27:53.875140+00:00
+[2023-10-23T18:27:53.882-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.353 seconds
+[2023-10-23T18:28:39.223-0700] {processor.py:153} INFO - Started process (PID=64373) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:28:39.229-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:28:39.229-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:39.229-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:28:39.240-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:28:39.563-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:39.563-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:28:39.571-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:39.571-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:28:39.571030+00:00, run_after=2023-10-24T01:28:39.571030+00:00
+[2023-10-23T18:28:39.578-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.355 seconds
+[2023-10-23T18:29:21.867-0700] {processor.py:153} INFO - Started process (PID=64458) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:29:21.874-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-23T18:29:21.876-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:29:21.876-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:29:21.908-0700] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-23T18:29:22.285-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:29:22.285-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:29:22.292-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:29:22.292-0700] {dag.py:3437} INFO - Setting next_dagrun for tutorial to 2023-10-23T01:29:22.292499+00:00, run_after=2023-10-24T01:29:22.292499+00:00
+[2023-10-23T18:29:22.299-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.432 seconds

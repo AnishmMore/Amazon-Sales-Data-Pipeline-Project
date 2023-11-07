@@ -1,0 +1,35 @@
+[2023-11-02T12:01:05.129-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:01:00.527290+00:00 [queued]>
+[2023-11-02T12:01:05.134-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:01:00.527290+00:00 [queued]>
+[2023-11-02T12:01:05.134-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-02T12:01:05.134-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-02T12:01:05.134-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-02T12:01:05.139-0700] {taskinstance.py:1300} INFO - Executing <Task(SnowflakeOperator): create_table> on 2023-11-02 19:01:00.527290+00:00
+[2023-11-02T12:01:05.141-0700] {standard_task_runner.py:55} INFO - Started process 31257 to run task
+[2023-11-02T12:01:05.144-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'snowflake_automation_dag', 'create_table', 'manual__2023-11-02T19:01:00.527290+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_airflow_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpacj8s6es']
+[2023-11-02T12:01:05.146-0700] {standard_task_runner.py:83} INFO - Job 95: Subtask create_table
+[2023-11-02T12:01:05.177-0700] {task_command.py:388} INFO - Running <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:01:00.527290+00:00 [running]> on host anishs-air.lan
+[2023-11-02T12:01:05.196-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=snowflake_automation_dag
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-02T19:01:00.527290+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-02T19:01:00.527290+00:00
+[2023-11-02T12:01:05.197-0700] {sql.py:254} INFO - Executing: 
+            create  table if not exists source_table( emp_no int,emp_name text,salary int, hra int ,Dept text);
+        
+[2023-11-02T12:01:05.200-0700] {base.py:73} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2023-11-02T12:01:05.266-0700] {base.py:73} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2023-11-02T12:01:05.267-0700] {connection.py:334} INFO - Snowflake Connector for Python Version: 3.3.1, Python Version: 3.10.12, Platform: macOS-13.5.1-arm64-arm-64bit
+[2023-11-02T12:01:05.268-0700] {connection.py:1103} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-02T12:01:05.268-0700] {connection.py:1113} INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+[2023-11-02T12:01:05.268-0700] {connection.py:1121} INFO - Setting use_openssl_only mode to False
+[2023-11-02T12:01:55.470-0700] {local_task_job.py:272} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-11-02T12:01:55.486-0700] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 31257. PIDs of all processes in the group: [31257]
+[2023-11-02T12:01:55.487-0700] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 31257
+[2023-11-02T12:02:55.504-0700] {process_utils.py:147} WARNING - process psutil.Process(pid=31257, name='Python', status='running', started='12:01:05') did not respond to SIGTERM. Trying SIGKILL
+[2023-11-02T12:02:55.508-0700] {process_utils.py:84} INFO - Sending the signal Signals.SIGKILL to group 31257
+[2023-11-02T12:02:55.517-0700] {process_utils.py:79} INFO - Process psutil.Process(pid=31257, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='12:01:05') (31257) terminated with exit code Negsignal.SIGKILL
+[2023-11-02T12:02:55.517-0700] {standard_task_runner.py:168} ERROR - Job 95 was killed before it finished (likely due to running out of memory)

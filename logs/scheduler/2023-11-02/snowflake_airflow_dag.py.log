@@ -1,0 +1,312 @@
+[2023-11-02T11:34:40.112-0700] {processor.py:153} INFO - Started process (PID=28857) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:34:40.116-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:34:40.116-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.116-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:34:40.579-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:34:40.834-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.834-0700] {manager.py:504} INFO - Created Permission View: can read on DAG:snowflake_automation_dag
+[2023-11-02T11:34:40.837-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.837-0700] {manager.py:504} INFO - Created Permission View: can delete on DAG:snowflake_automation_dag
+[2023-11-02T11:34:40.839-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.839-0700] {manager.py:504} INFO - Created Permission View: can edit on DAG:snowflake_automation_dag
+[2023-11-02T11:34:40.839-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.839-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:34:40.845-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.845-0700] {dag.py:2711} INFO - Creating ORM DAG for snowflake_automation_dag
+[2023-11-02T11:34:40.848-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:34:40.848-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:34:40.855-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.744 seconds
+[2023-11-02T11:35:11.636-0700] {processor.py:153} INFO - Started process (PID=28936) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:11.640-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:35:11.640-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:11.640-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:12.273-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:12.503-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:12.502-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:35:12.511-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:12.511-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:35:12.519-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.885 seconds
+[2023-11-02T11:35:46.768-0700] {processor.py:153} INFO - Started process (PID=29003) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:46.774-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:35:46.774-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:46.774-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:47.243-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:35:47.463-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:47.463-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:35:47.470-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:35:47.470-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:35:47.477-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.710 seconds
+[2023-11-02T11:36:25.109-0700] {processor.py:153} INFO - Started process (PID=29066) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:36:25.111-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:36:25.111-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:36:25.111-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:36:25.724-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:36:25.961-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:36:25.961-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:36:25.969-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:36:25.969-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:36:25.977-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.869 seconds
+[2023-11-02T11:37:03.681-0700] {processor.py:153} INFO - Started process (PID=29122) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:03.687-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:37:03.687-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:03.687-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:04.104-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:04.330-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:04.330-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:37:04.337-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:04.337-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:37:04.343-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.663 seconds
+[2023-11-02T11:37:41.971-0700] {processor.py:153} INFO - Started process (PID=29195) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:41.976-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:37:41.977-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:41.977-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:42.395-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:37:42.599-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:42.599-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:37:42.606-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:37:42.606-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:37:42.613-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.644 seconds
+[2023-11-02T11:38:13.670-0700] {processor.py:153} INFO - Started process (PID=29240) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:13.673-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:38:13.673-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:13.673-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:14.181-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:14.413-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:14.413-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:38:14.421-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:14.421-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:38:14.429-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.760 seconds
+[2023-11-02T11:38:50.942-0700] {processor.py:153} INFO - Started process (PID=29303) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:50.947-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:38:50.948-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:50.948-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:51.353-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:38:51.560-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:51.560-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:38:51.566-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:38:51.566-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:38:51.573-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.632 seconds
+[2023-11-02T11:39:22.306-0700] {processor.py:153} INFO - Started process (PID=29350) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:39:22.309-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:39:22.309-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:39:22.309-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:39:22.761-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:39:22.980-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:39:22.980-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:39:22.987-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:39:22.987-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:39:22.994-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.688 seconds
+[2023-11-02T11:40:00.384-0700] {processor.py:153} INFO - Started process (PID=29407) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:00.386-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:40:00.386-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:00.386-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:00.781-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:01.004-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:01.004-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:40:01.012-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:01.012-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:40:01.020-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.637 seconds
+[2023-11-02T11:40:39.895-0700] {processor.py:153} INFO - Started process (PID=29471) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:39.898-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:40:39.898-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:39.898-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:40.304-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:40:40.520-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:40.520-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:40:40.527-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:40:40.526-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:40:40.537-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.643 seconds
+[2023-11-02T11:41:18.527-0700] {processor.py:153} INFO - Started process (PID=29540) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:41:18.532-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:41:18.532-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:41:18.532-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:41:18.959-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:41:19.189-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:41:19.189-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:41:19.197-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:41:19.196-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:41:19.204-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.678 seconds
+[2023-11-02T11:48:12.841-0700] {processor.py:153} INFO - Started process (PID=30101) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:48:12.847-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:48:12.847-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:48:12.847-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:48:13.301-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:48:13.802-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:48:13.802-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:48:13.832-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:48:13.831-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:48:13.858-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.017 seconds
+[2023-11-02T11:54:05.207-0700] {processor.py:153} INFO - Started process (PID=30650) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:54:05.209-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:54:05.210-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:54:05.210-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:54:05.759-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:54:06.004-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:54:06.004-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:54:06.013-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:54:06.013-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:54:06.020-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.814 seconds
+[2023-11-02T11:58:16.773-0700] {processor.py:153} INFO - Started process (PID=30968) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:16.798-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:58:16.798-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:16.798-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:17.590-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:17.859-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:17.859-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:58:17.867-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:17.867-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:58:17.876-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.104 seconds
+[2023-11-02T11:58:49.374-0700] {processor.py:153} INFO - Started process (PID=31027) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:49.376-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:58:49.376-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:49.376-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:49.953-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:58:50.208-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:50.208-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:58:50.217-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:58:50.217-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:58:50.226-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.853 seconds
+[2023-11-02T11:59:23.618-0700] {processor.py:153} INFO - Started process (PID=31078) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:23.620-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:59:23.620-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:23.620-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:24.170-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:24.415-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:24.415-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:59:24.422-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:24.422-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:59:24.430-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.813 seconds
+[2023-11-02T11:59:57.430-0700] {processor.py:153} INFO - Started process (PID=31128) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:57.433-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T11:59:57.433-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:57.433-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:57.959-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T11:59:58.241-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:58.240-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T11:59:58.253-0700] {logging_mixin.py:137} INFO - [2023-11-02T11:59:58.253-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T11:59:58.263-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.834 seconds
+[2023-11-02T12:00:33.862-0700] {processor.py:153} INFO - Started process (PID=31190) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:00:33.866-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:00:33.866-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:00:33.866-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:00:34.620-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:00:34.951-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:00:34.951-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:00:34.960-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:00:34.960-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:00:34.968-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.107 seconds
+[2023-11-02T12:02:57.721-0700] {processor.py:153} INFO - Started process (PID=31440) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:02:57.724-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:02:57.725-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:02:57.725-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:02:58.283-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:02:58.552-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:02:58.552-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:02:58.561-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:02:58.561-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:02:58.570-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.850 seconds
+[2023-11-02T12:06:13.979-0700] {processor.py:153} INFO - Started process (PID=31707) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:06:13.984-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:06:13.984-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:06:13.984-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:06:14.498-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:06:14.740-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:06:14.740-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:06:14.748-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:06:14.747-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:06:14.755-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.776 seconds
+[2023-11-02T12:11:15.327-0700] {processor.py:153} INFO - Started process (PID=32126) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:15.330-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:11:15.330-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:15.330-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:15.983-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:16.239-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:16.239-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:11:16.249-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:16.249-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:11:16.259-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.933 seconds
+[2023-11-02T12:11:49.990-0700] {processor.py:153} INFO - Started process (PID=32184) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:49.992-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:11:49.993-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:49.993-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:50.533-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:11:50.775-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:50.775-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:11:50.784-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:11:50.784-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:11:50.813-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.824 seconds
+[2023-11-02T12:12:29.723-0700] {processor.py:153} INFO - Started process (PID=32253) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:12:29.726-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:12:29.726-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:12:29.726-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:12:30.279-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:12:30.530-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:12:30.530-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:12:30.540-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:12:30.540-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:12:30.548-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.825 seconds
+[2023-11-02T12:23:09.378-0700] {processor.py:153} INFO - Started process (PID=33248) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:23:09.383-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:23:09.383-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:23:09.383-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:23:10.112-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:23:10.394-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:23:10.394-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:23:10.403-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:23:10.403-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:23:10.411-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.034 seconds
+[2023-11-02T12:26:40.644-0700] {processor.py:153} INFO - Started process (PID=33555) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:26:40.651-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:26:40.651-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:26:40.651-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:26:41.424-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:26:41.953-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:26:41.952-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:26:41.970-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:26:41.970-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:26:41.986-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.342 seconds
+[2023-11-02T12:27:16.914-0700] {processor.py:153} INFO - Started process (PID=33619) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:16.920-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:27:16.921-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:16.921-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:17.502-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:17.767-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:17.767-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:27:17.776-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:17.776-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:27:17.784-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.871 seconds
+[2023-11-02T12:27:53.316-0700] {processor.py:153} INFO - Started process (PID=33676) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:53.322-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:27:53.323-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:53.322-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:53.891-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:27:54.205-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:54.205-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:27:54.219-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:27:54.219-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:27:54.231-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.915 seconds
+[2023-11-02T12:28:29.535-0700] {processor.py:153} INFO - Started process (PID=33735) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:28:29.539-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:28:29.539-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:28:29.539-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:28:30.168-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:28:30.467-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:28:30.467-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:28:30.481-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:28:30.481-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:28:30.490-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.955 seconds
+[2023-11-02T12:29:06.765-0700] {processor.py:153} INFO - Started process (PID=33791) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:06.769-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:29:06.769-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:06.769-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:07.340-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:07.626-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:07.626-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:29:07.638-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:07.638-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:29:07.647-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.882 seconds
+[2023-11-02T12:29:39.425-0700] {processor.py:153} INFO - Started process (PID=33844) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:39.428-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:29:39.428-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:39.428-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:40.169-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:29:40.441-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:40.441-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:29:40.451-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:29:40.451-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:29:40.459-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.035 seconds
+[2023-11-02T12:30:18.967-0700] {processor.py:153} INFO - Started process (PID=33916) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:30:18.969-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:30:18.970-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:30:18.970-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:30:19.455-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:30:19.765-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:30:19.765-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:30:19.775-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:30:19.775-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:30:19.784-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.818 seconds
+[2023-11-02T12:30:59.510-0700] {processor.py:153} INFO - Started process (PID=33989) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:30:59.513-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:30:59.513-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:30:59.513-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:31:00.091-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:31:00.439-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:31:00.439-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:31:00.451-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:31:00.451-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:31:00.463-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.955 seconds
+[2023-11-02T12:31:40.676-0700] {processor.py:153} INFO - Started process (PID=34050) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:31:40.679-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:31:40.680-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:31:40.680-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:31:41.275-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:31:41.596-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:31:41.596-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:31:41.606-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:31:41.606-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:31:41.617-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.941 seconds
+[2023-11-02T12:32:22.836-0700] {processor.py:153} INFO - Started process (PID=34117) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:32:22.839-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:32:22.840-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:32:22.839-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:32:23.616-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:32:24.072-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:32:24.072-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:32:24.085-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:32:24.085-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:32:24.094-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.258 seconds
+[2023-11-02T12:33:03.442-0700] {processor.py:153} INFO - Started process (PID=34196) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:03.445-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:33:03.445-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:03.445-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:03.954-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:04.229-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:04.229-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:33:04.237-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:04.237-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:33:04.245-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.803 seconds
+[2023-11-02T12:33:44.210-0700] {processor.py:153} INFO - Started process (PID=34264) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:44.216-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:33:44.216-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:44.216-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:44.769-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:33:45.082-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:45.082-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:33:45.091-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:33:45.091-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:33:45.103-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.893 seconds
+[2023-11-02T12:34:28.859-0700] {processor.py:153} INFO - Started process (PID=34329) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:34:28.861-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:34:28.862-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:34:28.862-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:34:29.430-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:34:29.733-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:34:29.732-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:34:29.741-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:34:29.741-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:34:29.749-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.890 seconds
+[2023-11-02T12:35:09.451-0700] {processor.py:153} INFO - Started process (PID=34394) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:09.454-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:35:09.454-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:09.454-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:10.070-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:10.436-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:10.436-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:35:10.447-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:10.447-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:35:10.457-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 1.007 seconds
+[2023-11-02T12:35:49.385-0700] {processor.py:153} INFO - Started process (PID=34461) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:49.388-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:35:49.388-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:49.388-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:49.908-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:35:50.178-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:50.178-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:35:50.188-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:35:50.188-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:35:50.197-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.812 seconds
+[2023-11-02T12:36:30.441-0700] {processor.py:153} INFO - Started process (PID=34533) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:36:30.443-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:36:30.444-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:36:30.443-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:36:30.935-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:36:31.215-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:36:31.215-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:36:31.224-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:36:31.224-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:36:31.234-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.794 seconds
+[2023-11-02T12:37:10.599-0700] {processor.py:153} INFO - Started process (PID=34605) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:10.602-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:37:10.602-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:10.602-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:11.103-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:11.362-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:11.362-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:37:11.371-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:11.371-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:37:11.379-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.780 seconds
+[2023-11-02T12:37:49.716-0700] {processor.py:153} INFO - Started process (PID=34665) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:49.719-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:37:49.719-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:49.719-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:50.244-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:37:50.500-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:50.499-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:37:50.509-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:37:50.508-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:37:50.517-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.801 seconds
+[2023-11-02T12:38:33.232-0700] {processor.py:153} INFO - Started process (PID=34728) to work on /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:38:33.237-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/snowflake_airflow_dag.py for tasks to queue
+[2023-11-02T12:38:33.237-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:38:33.237-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:38:33.853-0700] {processor.py:753} INFO - DAG(s) dict_keys(['snowflake_automation_dag']) retrieved from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py
+[2023-11-02T12:38:34.173-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:38:34.173-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-02T12:38:34.186-0700] {logging_mixin.py:137} INFO - [2023-11-02T12:38:34.186-0700] {dag.py:3437} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2023-11-02T12:38:34.198-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/snowflake_airflow_dag.py took 0.966 seconds

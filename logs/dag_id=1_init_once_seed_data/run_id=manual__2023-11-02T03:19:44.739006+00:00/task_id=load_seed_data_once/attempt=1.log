@@ -1,0 +1,64 @@
+[2023-11-01T20:19:47.102-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: 1_init_once_seed_data.load_seed_data_once manual__2023-11-02T03:19:44.739006+00:00 [queued]>
+[2023-11-01T20:19:47.106-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: 1_init_once_seed_data.load_seed_data_once manual__2023-11-02T03:19:44.739006+00:00 [queued]>
+[2023-11-01T20:19:47.106-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T20:19:47.107-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-01T20:19:47.107-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-01T20:19:47.111-0700] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): load_seed_data_once> on 2023-11-02 03:19:44.739006+00:00
+[2023-11-01T20:19:47.113-0700] {standard_task_runner.py:55} INFO - Started process 99252 to run task
+[2023-11-01T20:19:47.115-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', '1_init_once_seed_data', 'load_seed_data_once', 'manual__2023-11-02T03:19:44.739006+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/init.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmp2bi8v869']
+[2023-11-01T20:19:47.117-0700] {standard_task_runner.py:83} INFO - Job 73: Subtask load_seed_data_once
+[2023-11-01T20:19:47.135-0700] {task_command.py:388} INFO - Running <TaskInstance: 1_init_once_seed_data.load_seed_data_once manual__2023-11-02T03:19:44.739006+00:00 [running]> on host anishs-air.lan
+[2023-11-01T20:19:47.152-0700] {abstractoperator.py:609} ERROR - Exception rendering Jinja template for task 'load_seed_data_once', field 'env'. Template: {'dbt_user': '{{ var.value.dbt_user }}', 'dbt_password': '{{ var.value.dbt_password }}', 'MallocNanoZone': '0', 'USER': 'anishmore', 'COMMAND_MODE': 'unix2003', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PATH': '/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/development/flutter/bin:/Applications/development/flutter/bin:/Applications/development/flutter/bin', 'LOGNAME': 'anishmore', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.mGzZcqSZk5/Listeners', 'HOME': '/Users/anishmore', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XPC_SERVICE_NAME': '0', 'XPC_FLAGS': '0x0', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'SHLVL': '1', 'PWD': '/Users/anishmore/airflow/dbt/data_pipeline', 'OLDPWD': '/Users/anishmore/airflow/dbt', 'HOMEBREW_PREFIX': '/opt/homebrew', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'MANPATH': '/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/opt/homebrew/share/man::', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'NVM_DIR': '/Users/anishmore/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_NODEJS_ORG_MIRROR': 'https://nodejs.org/dist', 'NVM_IOJS_ORG_MIRROR': 'https://iojs.org/dist', 'NVM_RC_VERSION': '', 'TERM_PROGRAM': 'vscode', 'TERM_PROGRAM_VERSION': '1.83.0', 'LANG': 'en_US.UTF-8', 'COLORTERM': 'truecolor', 'GIT_ASKPASS': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/vscode-git-53034f7973.sock', 'VSCODE_INJECTION': '1', 'ZDOTDIR': '/Users/anishmore', 'USER_ZDOTDIR': '/Users/anishmore', 'TERM': 'xterm-256color', '_': '/opt/homebrew/bin/airflow'}
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 602, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 657, in render_template
+    template = jinja_env.get_template(value)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+[2023-11-01T20:19:47.154-0700] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1374, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1493, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2115, in render_templates
+    original_task.render_template_fields(context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1179, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 602, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 657, in render_template
+    template = jinja_env.get_template(value)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+[2023-11-01T20:19:47.157-0700] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=1_init_once_seed_data, task_id=load_seed_data_once, execution_date=20231102T031944, start_date=20231102T031947, end_date=20231102T031947
+[2023-11-01T20:19:47.160-0700] {standard_task_runner.py:100} ERROR - Failed to execute job 73 for task load_seed_data_once (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh; 99252)
+[2023-11-01T20:19:47.174-0700] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-01T20:19:47.180-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

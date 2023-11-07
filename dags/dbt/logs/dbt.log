@@ -1,0 +1,86 @@
+[0m17:04:28.891326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a848b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e43df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e437f0>]}
+
+
+============================== 17:04:28.893881 | 402c71cc-83bd-4950-aa64-8e4768e23f6d ==============================
+[0m17:04:28.893881 [info ] [MainThread]: Running with dbt=1.6.7
+[0m17:04:28.894232 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/anishmore/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:04:28.894580 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/anishmore/.dbt')}
+[0m17:04:28.894754 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:04:48.127259 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.10/site-packages/dbt/include/starter_project
+[0m17:04:48.145781 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:04:48.146915 [info ] [MainThread]: Setting up your profile.
+[0m17:13:19.113257 [info ] [MainThread]: Profile data_pipeline written to /Users/anishmore/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:13:19.137073 [debug] [MainThread]: Command `dbt init` succeeded at 17:13:19.134706 after 530.31 seconds
+[0m17:13:19.141481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a848b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e42a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e43310>]}
+[0m17:13:19.146412 [debug] [MainThread]: Flushing usage events
+[0m17:44:52.495352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103068820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fa2c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fa3b20>]}
+
+
+============================== 17:44:52.498800 | e84bce81-bf19-47ce-b035-9dd07bf8131d ==============================
+[0m17:44:52.498800 [info ] [MainThread]: Running with dbt=1.6.7
+[0m17:44:52.499137 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/anishmore/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:44:52.499645 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anishmore/airflow/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:44:52.500013 [debug] [MainThread]: Command `dbt deps` failed at 17:44:52.499946 after 0.02 seconds
+[0m17:44:52.500221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103068820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fa2fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050205b0>]}
+[0m17:44:52.500411 [debug] [MainThread]: Flushing usage events
+[0m17:45:14.875450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050f8880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dcbf70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dcbb80>]}
+
+
+============================== 17:45:14.878105 | 6fd4e301-92e8-41cb-ab88-76dfa7dbd3a5 ==============================
+[0m17:45:14.878105 [info ] [MainThread]: Running with dbt=1.6.7
+[0m17:45:14.878424 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/anishmore/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:45:14.879564 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anishmore/airflow/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:45:14.879918 [debug] [MainThread]: Command `dbt deps` failed at 17:45:14.879855 after 0.02 seconds
+[0m17:45:14.880113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050f8880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dcb2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dcb3d0>]}
+[0m17:45:14.880305 [debug] [MainThread]: Flushing usage events
+[0m17:47:16.390567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102753a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049cbeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049cbac0>]}
+
+
+============================== 17:47:16.393443 | bfe5725f-659e-4bba-b4cb-4db1f047ccb8 ==============================
+[0m17:47:16.393443 [info ] [MainThread]: Running with dbt=1.6.7
+[0m17:47:16.393783 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/anishmore/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m17:47:16.394899 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anishmore/airflow/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:47:16.395245 [debug] [MainThread]: Command `dbt deps` failed at 17:47:16.395186 after 0.02 seconds
+[0m17:47:16.395444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102753a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049cb1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049cb2b0>]}
+[0m17:47:16.395623 [debug] [MainThread]: Flushing usage events
+[0m18:43:24.895859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a54820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898f340>]}
+
+
+============================== 18:43:24.898345 | 8eb54176-e1a4-4c6a-bef2-53fc5d42eefc ==============================
+[0m18:43:24.898345 [info ] [MainThread]: Running with dbt=1.6.7
+[0m18:43:24.898673 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/anishmore/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:43:24.899237 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/anishmore/airflow/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:43:24.899621 [debug] [MainThread]: Command `dbt deps` failed at 18:43:24.899555 after 0.02 seconds
+[0m18:43:24.899827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a54820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898ff40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898ed70>]}
+[0m18:43:24.900016 [debug] [MainThread]: Flushing usage events

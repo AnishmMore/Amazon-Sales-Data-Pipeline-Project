@@ -1,0 +1,34 @@
+[2023-11-05T16:00:36.896-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: source_extracting_dag.clone_repo_task manual__2023-11-06T00:00:34.772105+00:00 [queued]>
+[2023-11-05T16:00:36.900-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: source_extracting_dag.clone_repo_task manual__2023-11-06T00:00:34.772105+00:00 [queued]>
+[2023-11-05T16:00:36.900-0800] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T16:00:36.900-0800] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-05T16:00:36.900-0800] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T16:00:36.904-0800] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): clone_repo_task> on 2023-11-06 00:00:34.772105+00:00
+[2023-11-05T16:00:36.907-0800] {standard_task_runner.py:55} INFO - Started process 90806 to run task
+[2023-11-05T16:00:36.910-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'source_extracting_dag', 'clone_repo_task', 'manual__2023-11-06T00:00:34.772105+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/source_extract_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmp3u55n70k']
+[2023-11-05T16:00:36.911-0800] {standard_task_runner.py:83} INFO - Job 108: Subtask clone_repo_task
+[2023-11-05T16:00:36.933-0800] {task_command.py:388} INFO - Running <TaskInstance: source_extracting_dag.clone_repo_task manual__2023-11-06T00:00:34.772105+00:00 [running]> on host anishs-air.lan
+[2023-11-05T16:00:36.951-0800] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=source_extracting_dag
+AIRFLOW_CTX_TASK_ID=clone_repo_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-06T00:00:34.772105+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-06T00:00:34.772105+00:00
+[2023-11-05T16:00:36.952-0800] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-11-05T16:00:36.952-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'git clone https://gitlab.com/toppertips/snowflake-work.git /Users/anishmore/airflow/data/']
+[2023-11-05T16:00:36.956-0800] {subprocess.py:86} INFO - Output:
+[2023-11-05T16:00:36.989-0800] {subprocess.py:93} INFO - fatal: destination path '/Users/anishmore/airflow/data' already exists and is not an empty directory.
+[2023-11-05T16:00:36.990-0800] {subprocess.py:97} INFO - Command exited with return code 128
+[2023-11-05T16:00:36.993-0800] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 128.
+[2023-11-05T16:00:36.995-0800] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=source_extracting_dag, task_id=clone_repo_task, execution_date=20231106T000034, start_date=20231106T000036, end_date=20231106T000036
+[2023-11-05T16:00:36.998-0800] {standard_task_runner.py:100} ERROR - Failed to execute job 108 for task clone_repo_task (Bash command failed. The command returned a non-zero exit code 128.; 90806)
+[2023-11-05T16:00:37.010-0800] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-05T16:00:37.017-0800] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+default:
+  outputs:
+    anish:
+      type: snowflake
+      account: qvb14385
+      user: amore159
+      password: Anishmore@123
+      role: ACCOUNTADMIN
+      database: demo_dbt
+      warehouse: COMPUTE_WH
+      schema: public
+      threads: 1
+      client_session_keep_alive: False
+  target: anish

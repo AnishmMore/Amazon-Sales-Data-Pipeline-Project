@@ -1,0 +1,70 @@
+[2023-11-05T15:54:00.309-0800] {processor.py:153} INFO - Started process (PID=90027) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:00.314-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:54:00.315-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:00.315-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:00.345-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:00.658-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:00.658-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:00.665-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:00.665-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:54:00.673-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.364 seconds
+[2023-11-05T15:54:46.030-0800] {processor.py:153} INFO - Started process (PID=90126) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:46.037-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:54:46.037-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:46.037-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:46.051-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:54:46.373-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:46.373-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:54:46.379-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:54:46.379-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:54:46.386-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.357 seconds
+[2023-11-05T15:55:18.312-0800] {processor.py:153} INFO - Started process (PID=90189) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:18.319-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:55:18.319-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:18.319-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:18.331-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:18.664-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:18.664-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:18.672-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:18.671-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:55:18.678-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.367 seconds
+[2023-11-05T15:55:49.326-0800] {processor.py:153} INFO - Started process (PID=90249) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:49.333-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:55:49.333-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:49.333-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:49.354-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:55:49.718-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:49.718-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:55:49.724-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:55:49.724-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:55:49.731-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.406 seconds
+[2023-11-05T15:56:21.690-0800] {processor.py:153} INFO - Started process (PID=90293) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:21.698-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:56:21.698-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:21.698-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:21.708-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:22.016-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:22.016-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:22.024-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:22.024-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:56:22.030-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.341 seconds
+[2023-11-05T15:56:52.747-0800] {processor.py:153} INFO - Started process (PID=90335) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:52.750-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:56:52.750-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:52.750-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:52.760-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:56:53.092-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:53.092-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:56:53.099-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:56:53.099-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:56:53.106-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.360 seconds
+[2023-11-05T15:57:24.975-0800] {processor.py:153} INFO - Started process (PID=90392) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:24.980-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:57:24.981-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:24.981-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:24.992-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:25.359-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:25.359-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:25.366-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:25.366-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:57:25.373-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.399 seconds
+[2023-11-05T15:57:57.083-0800] {processor.py:153} INFO - Started process (PID=90468) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:57.087-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:57:57.087-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:57.087-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:57.097-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:57:57.410-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:57.410-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:57:57.416-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:57:57.416-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:57:57.423-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.341 seconds
+[2023-11-05T15:58:28.153-0800] {processor.py:153} INFO - Started process (PID=90584) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:58:28.158-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:58:28.158-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:28.158-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:58:28.175-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:58:28.611-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:28.611-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:58:28.621-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:58:28.621-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:58:28.631-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.479 seconds
+[2023-11-05T15:59:00.610-0800] {processor.py:153} INFO - Started process (PID=90641) to work on /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:59:00.613-0800] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/second_task_two_dag.py for tasks to queue
+[2023-11-05T15:59:00.613-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:59:00.613-0800] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:59:00.624-0800] {processor.py:753} INFO - DAG(s) dict_keys(['second_task_dag']) retrieved from /Users/anishmore/airflow/dags/second_task_two_dag.py
+[2023-11-05T15:59:00.968-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:59:00.968-0800] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-05T15:59:00.975-0800] {logging_mixin.py:137} INFO - [2023-11-05T15:59:00.975-0800] {dag.py:3437} INFO - Setting next_dagrun for second_task_dag to None, run_after=None
+[2023-11-05T15:59:00.984-0800] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/second_task_two_dag.py took 0.375 seconds

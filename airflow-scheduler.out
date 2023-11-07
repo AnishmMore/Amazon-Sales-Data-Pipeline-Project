@@ -1,0 +1,47 @@
+[[34m2023-11-02 12:23:07,171[0m] {[34mscheduler_job.py:[0m714} INFO[0m - Starting the scheduler[0m
+[[34m2023-11-02 12:23:07,172[0m] {[34mscheduler_job.py:[0m719} INFO[0m - Processing each file at most -1 times[0m
+[[34m2023-11-02 12:23:07,175[0m] {[34mexecutor_loader.py:[0m107} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2023-11-02 12:23:07,179[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 33243[0m
+[[34m2023-11-02 12:23:07,184[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-11-02 12:23:08,018[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-11-02T12:23:08.020-0700] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-11-02 12:23:10,707[0m] {[34mscheduler_job.py:[0m360} INFO[0m - 2 tasks up for execution:
+	<TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:17:48.973661+00:00 [scheduled]>
+	<TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:22:53.836064+00:00 [scheduled]>[0m
+[[34m2023-11-02 12:23:10,707[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG snowflake_automation_dag has 0/16 running and queued tasks[0m
+[[34m2023-11-02 12:23:10,708[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG snowflake_automation_dag has 1/16 running and queued tasks[0m
+[[34m2023-11-02 12:23:10,708[0m] {[34mscheduler_job.py:[0m511} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:17:48.973661+00:00 [scheduled]>
+	<TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:22:53.836064+00:00 [scheduled]>[0m
+[[34m2023-11-02 12:23:10,710[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='snowflake_automation_dag', task_id='create_table', run_id='manual__2023-11-02T19:17:48.973661+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2023-11-02 12:23:10,710[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'snowflake_automation_dag', 'create_table', 'manual__2023-11-02T19:17:48.973661+00:00', '--local', '--subdir', 'DAGS_FOLDER/snowflake_airflow_dag.py'][0m
+[[34m2023-11-02 12:23:10,710[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='snowflake_automation_dag', task_id='create_table', run_id='manual__2023-11-02T19:22:53.836064+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2023-11-02 12:23:10,711[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'snowflake_automation_dag', 'create_table', 'manual__2023-11-02T19:22:53.836064+00:00', '--local', '--subdir', 'DAGS_FOLDER/snowflake_airflow_dag.py'][0m
+[[34m2023-11-02 12:23:10,712[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'snowflake_automation_dag', 'create_table', 'manual__2023-11-02T19:17:48.973661+00:00', '--local', '--subdir', 'DAGS_FOLDER/snowflake_airflow_dag.py'][0m
+[[34m2023-11-02 12:23:11,350[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py[0m
+[[34m2023-11-02 12:23:12,175[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:17:48.973661+00:00 [queued]> on host anishs-air.lan[0m
+[[34m2023-11-02 12:26:33,691[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'snowflake_automation_dag', 'create_table', 'manual__2023-11-02T19:22:53.836064+00:00', '--local', '--subdir', 'DAGS_FOLDER/snowflake_airflow_dag.py'][0m
+[[34m2023-11-02 12:26:35,138[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /Users/anishmore/airflow/dags/snowflake_airflow_dag.py[0m
+[[34m2023-11-02 12:26:37,138[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: snowflake_automation_dag.create_table manual__2023-11-02T19:22:53.836064+00:00 [skipped]> on host anishs-air.lan[0m
+[[34m2023-11-02 12:26:37,611[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of snowflake_automation_dag.create_table run_id=manual__2023-11-02T19:17:48.973661+00:00 exited with status success for try_number 1[0m
+[[34m2023-11-02 12:26:37,615[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of snowflake_automation_dag.create_table run_id=manual__2023-11-02T19:22:53.836064+00:00 exited with status success for try_number 1[0m
+[[34m2023-11-02 12:26:37,644[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=snowflake_automation_dag, task_id=create_table, run_id=manual__2023-11-02T19:17:48.973661+00:00, map_index=-1, run_start_date=2023-11-02 19:23:12.191734+00:00, run_end_date=2023-11-02 19:25:26.341155+00:00, run_duration=134.149421, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=101, pool=default_pool, queue=default, priority_weight=2, operator=SnowflakeOperator, queued_dttm=2023-11-02 19:23:10.708945+00:00, queued_by_job_id=100, pid=33264[0m
+[[34m2023-11-02 12:26:37,646[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=snowflake_automation_dag, task_id=create_table, run_id=manual__2023-11-02T19:22:53.836064+00:00, map_index=-1, run_start_date=2023-11-02 19:25:50.198407+00:00, run_end_date=2023-11-02 19:25:50.198407+00:00, run_duration=0.0, state=skipped, executor_state=success, try_number=1, max_tries=0, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=SnowflakeOperator, queued_dttm=2023-11-02 19:23:10.708945+00:00, queued_by_job_id=100, pid=None[0m
+[[34m2023-11-02 12:26:37,661[0m] {[34mmanager.py:[0m301} ERROR[0m - DagFileProcessorManager (PID=33243) last sent a heartbeat 207.01 seconds ago! Restarting it[0m
+[[34m2023-11-02 12:26:37,666[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 33243. PIDs of all processes in the group: [33243][0m
+[[34m2023-11-02 12:26:37,667[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 33243[0m
+[[34m2023-11-02 12:26:38,351[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=33243, status='terminated', exitcode=0, started='12:23:07') (33243) terminated with exit code 0[0m
+[[34m2023-11-02 12:26:38,356[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 33550[0m
+[[34m2023-11-02 12:26:39,447[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-11-02T12:26:39.460-0700] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-11-02 12:28:16,431[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-11-02 12:33:17,637[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-11-02 12:38:17,667[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-11-02 12:38:46,259[0m] {[34mscheduler_job.py:[0m179} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2023-11-02 12:38:47,268[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 33550. PIDs of all processes in the group: [33550][0m
+[[34m2023-11-02 12:38:47,269[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 33550[0m
+[[34m2023-11-02 12:38:47,611[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=33550, status='terminated', exitcode=0, started='12:26:38') (33550) terminated with exit code 0[0m
+[[34m2023-11-02 12:38:47,619[0m] {[34mprocess_utils.py:[0m129} INFO[0m - Sending Signals.SIGTERM to group 33550. PIDs of all processes in the group: [][0m
+[[34m2023-11-02 12:38:47,619[0m] {[34mprocess_utils.py:[0m84} INFO[0m - Sending the signal Signals.SIGTERM to group 33550[0m
+[[34m2023-11-02 12:38:47,620[0m] {[34mprocess_utils.py:[0m98} INFO[0m - Sending the signal Signals.SIGTERM to process 33550 as process group is missing.[0m
+[[34m2023-11-02 12:38:47,620[0m] {[34mscheduler_job.py:[0m788} INFO[0m - Exited execute loop[0m

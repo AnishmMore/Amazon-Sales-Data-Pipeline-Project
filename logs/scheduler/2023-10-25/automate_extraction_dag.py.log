@@ -1,0 +1,1148 @@
+[2023-10-24T17:00:16.309-0700] {processor.py:153} INFO - Started process (PID=17412) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:16.314-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:00:16.315-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:16.314-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:16.326-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:16.648-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:16.648-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:00:16.656-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:16.656-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:00:16.662-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.354 seconds
+[2023-10-24T17:00:47.655-0700] {processor.py:153} INFO - Started process (PID=17447) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:47.661-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:00:47.662-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:47.662-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:47.672-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:00:47.991-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:47.991-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:00:47.997-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:00:47.997-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:00:48.003-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T17:01:18.984-0700] {processor.py:153} INFO - Started process (PID=17481) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:18.989-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:01:18.990-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:18.990-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:19.000-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:19.300-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:19.300-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:01:19.307-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:19.307-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:01:19.313-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.330 seconds
+[2023-10-24T17:01:50.354-0700] {processor.py:153} INFO - Started process (PID=17516) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:50.360-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:01:50.360-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:50.360-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:50.371-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:01:50.687-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:50.687-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:01:50.694-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:01:50.694-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:01:50.704-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.351 seconds
+[2023-10-24T17:02:21.721-0700] {processor.py:153} INFO - Started process (PID=17549) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:21.727-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:02:21.727-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:21.727-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:21.737-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:22.041-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:22.041-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:02:22.047-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:22.047-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:02:22.053-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.333 seconds
+[2023-10-24T17:02:53.227-0700] {processor.py:153} INFO - Started process (PID=17593) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:53.233-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:02:53.233-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:53.233-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:53.244-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:02:53.559-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:53.559-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:02:53.565-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:02:53.565-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:02:53.572-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.346 seconds
+[2023-10-24T17:03:24.577-0700] {processor.py:153} INFO - Started process (PID=17630) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:24.583-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:03:24.583-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:24.583-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:24.594-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:24.915-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:24.915-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:03:24.922-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:24.922-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:03:24.928-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.352 seconds
+[2023-10-24T17:03:55.986-0700] {processor.py:153} INFO - Started process (PID=17664) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:55.993-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:03:55.993-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:55.993-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:56.004-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:03:56.331-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:56.331-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:03:56.337-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:03:56.337-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:03:56.344-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T17:04:27.333-0700] {processor.py:153} INFO - Started process (PID=17699) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:27.339-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:04:27.339-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:27.339-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:27.350-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:27.678-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:27.678-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:04:27.684-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:27.684-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:04:27.691-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T17:04:58.772-0700] {processor.py:153} INFO - Started process (PID=17732) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:58.778-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:04:58.778-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:58.778-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:58.789-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:04:59.100-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:59.100-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:04:59.108-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:04:59.107-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:04:59.114-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.342 seconds
+[2023-10-24T17:05:30.168-0700] {processor.py:153} INFO - Started process (PID=17776) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:05:30.175-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:05:30.175-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:05:30.175-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:05:30.186-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:05:30.486-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:05:30.486-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:05:30.494-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:05:30.494-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:05:30.501-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.334 seconds
+[2023-10-24T17:06:01.596-0700] {processor.py:153} INFO - Started process (PID=17810) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:01.601-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:06:01.601-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:01.601-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:01.613-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:01.921-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:01.921-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:06:01.928-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:01.928-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:06:01.934-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.339 seconds
+[2023-10-24T17:06:32.910-0700] {processor.py:153} INFO - Started process (PID=17845) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:32.916-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:06:32.916-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:32.916-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:32.927-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:06:33.226-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:33.226-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:06:33.233-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:06:33.233-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:06:33.239-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.331 seconds
+[2023-10-24T17:07:04.305-0700] {processor.py:153} INFO - Started process (PID=17878) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:04.312-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:07:04.313-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:04.313-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:04.323-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:04.649-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:04.649-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:07:04.656-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:04.655-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:07:04.662-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T17:07:35.648-0700] {processor.py:153} INFO - Started process (PID=17939) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:35.654-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:07:35.654-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:35.654-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:35.664-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:07:36.000-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:35.999-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:07:36.007-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:07:36.007-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:07:36.013-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.366 seconds
+[2023-10-24T17:08:07.017-0700] {processor.py:153} INFO - Started process (PID=17976) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:07.026-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:08:07.026-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:07.026-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:07.037-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:07.350-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:07.350-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:08:07.357-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:07.356-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:08:07.363-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.347 seconds
+[2023-10-24T17:08:38.428-0700] {processor.py:153} INFO - Started process (PID=18010) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:38.435-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:08:38.435-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:38.435-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:38.449-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:08:38.759-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:38.759-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:08:38.766-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:08:38.765-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:08:38.772-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.345 seconds
+[2023-10-24T17:09:09.844-0700] {processor.py:153} INFO - Started process (PID=18053) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:09.852-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:09:09.852-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:09.852-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:09.863-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:10.180-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:10.180-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:09:10.186-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:10.186-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:09:10.192-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T17:09:41.270-0700] {processor.py:153} INFO - Started process (PID=18089) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:41.275-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:09:41.276-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:41.276-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:41.286-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:09:41.616-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:41.616-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:09:41.622-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:09:41.622-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:09:41.628-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T17:10:12.692-0700] {processor.py:153} INFO - Started process (PID=18124) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:12.699-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:10:12.699-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:12.699-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:12.710-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:13.056-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:13.055-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:10:13.062-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:13.062-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:10:13.068-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.377 seconds
+[2023-10-24T17:10:44.079-0700] {processor.py:153} INFO - Started process (PID=18157) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:44.082-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:10:44.082-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:44.082-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:44.094-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:10:44.401-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:44.401-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:10:44.408-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:10:44.408-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:10:44.414-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.336 seconds
+[2023-10-24T17:11:15.400-0700] {processor.py:153} INFO - Started process (PID=18191) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:15.405-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:11:15.406-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:15.406-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:15.417-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:15.723-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:15.723-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:11:15.729-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:15.729-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:11:15.735-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.336 seconds
+[2023-10-24T17:11:46.788-0700] {processor.py:153} INFO - Started process (PID=18224) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:46.793-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:11:46.793-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:46.793-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:46.805-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:11:47.110-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:47.110-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:11:47.116-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:11:47.116-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:11:47.123-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.336 seconds
+[2023-10-24T17:12:18.318-0700] {processor.py:153} INFO - Started process (PID=18260) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:18.324-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:12:18.324-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:18.324-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:18.335-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:18.675-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:18.675-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:12:18.681-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:18.681-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:12:18.688-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.371 seconds
+[2023-10-24T17:12:50.090-0700] {processor.py:153} INFO - Started process (PID=18335) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:50.092-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:12:50.093-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:50.093-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:50.107-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:12:50.471-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:50.471-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:12:50.479-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:12:50.479-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:12:50.486-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.397 seconds
+[2023-10-24T17:13:21.388-0700] {processor.py:153} INFO - Started process (PID=18406) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:21.394-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:13:21.394-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:21.394-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:21.405-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:21.726-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:21.726-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:13:21.733-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:21.733-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:13:21.739-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.351 seconds
+[2023-10-24T17:13:52.810-0700] {processor.py:153} INFO - Started process (PID=18443) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:52.816-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:13:52.817-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:52.816-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:52.827-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:13:53.152-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:53.152-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:13:53.159-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:13:53.158-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:13:53.165-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.356 seconds
+[2023-10-24T17:14:24.186-0700] {processor.py:153} INFO - Started process (PID=18517) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:24.193-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:14:24.193-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:24.193-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:24.204-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:24.540-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:24.540-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:14:24.547-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:24.547-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:14:24.554-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.369 seconds
+[2023-10-24T17:14:55.528-0700] {processor.py:153} INFO - Started process (PID=18584) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:55.535-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:14:55.535-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:55.535-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:55.550-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:14:55.875-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:55.875-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:14:55.881-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:14:55.881-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:14:55.888-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.360 seconds
+[2023-10-24T17:15:26.944-0700] {processor.py:153} INFO - Started process (PID=18618) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:15:26.946-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:15:26.946-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:15:26.946-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:15:26.957-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:15:27.277-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:15:27.277-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:15:27.284-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:15:27.284-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:15:27.290-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.346 seconds
+[2023-10-24T17:22:17.286-0700] {processor.py:153} INFO - Started process (PID=18685) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:17.294-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:22:17.294-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:17.294-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:17.304-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:17.646-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:17.646-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:22:17.653-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:17.653-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:22:17.659-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.376 seconds
+[2023-10-24T17:22:49.615-0700] {processor.py:153} INFO - Started process (PID=18726) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:49.621-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:22:49.621-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:49.621-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:49.631-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:22:49.959-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:49.959-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:22:49.965-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:22:49.965-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:22:49.971-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T17:25:09.913-0700] {processor.py:153} INFO - Started process (PID=18765) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:09.915-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:25:09.915-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:09.915-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:09.926-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:10.274-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:10.274-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:25:10.280-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:10.280-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:25:10.287-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.375 seconds
+[2023-10-24T17:25:42.077-0700] {processor.py:153} INFO - Started process (PID=18820) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:42.082-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:25:42.082-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:42.082-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:42.094-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:25:42.401-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:42.400-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:25:42.407-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:25:42.407-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:25:42.413-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.337 seconds
+[2023-10-24T17:39:26.429-0700] {processor.py:153} INFO - Started process (PID=18861) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:39:26.434-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:39:26.434-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:39:26.434-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:39:26.445-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:39:26.832-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:39:26.832-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:39:26.843-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:39:26.843-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:39:26.851-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.424 seconds
+[2023-10-24T17:46:34.162-0700] {processor.py:153} INFO - Started process (PID=18941) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:46:34.164-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:46:34.164-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:46:34.164-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:46:34.176-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:46:34.504-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:46:34.504-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:46:34.510-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:46:34.510-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:46:34.516-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.355 seconds
+[2023-10-24T17:48:27.472-0700] {processor.py:153} INFO - Started process (PID=18989) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:48:27.478-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:48:27.478-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:48:27.478-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:48:27.489-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:48:27.803-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:48:27.803-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:48:27.809-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:48:27.809-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:48:27.815-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.344 seconds
+[2023-10-24T17:48:59.800-0700] {processor.py:153} INFO - Started process (PID=19017) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:48:59.806-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:48:59.806-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:48:59.806-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:48:59.816-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:49:00.150-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:49:00.150-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:49:00.157-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:49:00.157-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:49:00.163-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.363 seconds
+[2023-10-24T17:59:01.831-0700] {processor.py:153} INFO - Started process (PID=19049) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:01.836-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:59:01.836-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:01.836-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:01.849-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:02.156-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:02.156-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:59:02.162-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:02.162-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:59:02.168-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.338 seconds
+[2023-10-24T17:59:42.766-0700] {processor.py:153} INFO - Started process (PID=19083) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:42.772-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T17:59:42.772-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:42.772-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:42.783-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T17:59:43.108-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:43.108-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T17:59:43.115-0700] {logging_mixin.py:137} INFO - [2023-10-24T17:59:43.115-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T17:59:43.121-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.356 seconds
+[2023-10-24T18:05:35.912-0700] {processor.py:153} INFO - Started process (PID=19146) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:05:35.918-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:05:35.918-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:05:35.918-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:05:35.928-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:05:36.256-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:05:36.256-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:05:36.262-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:05:36.262-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:05:36.268-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T18:10:17.975-0700] {processor.py:153} INFO - Started process (PID=19198) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:10:17.981-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:10:17.981-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:10:17.981-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:10:17.992-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:10:18.305-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:10:18.305-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:10:18.312-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:10:18.312-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:10:18.318-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.344 seconds
+[2023-10-24T18:11:16.061-0700] {processor.py:153} INFO - Started process (PID=19230) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:11:16.067-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:11:16.067-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:11:16.067-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:11:16.078-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:11:16.407-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:11:16.407-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:11:16.415-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:11:16.415-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:11:16.423-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.363 seconds
+[2023-10-24T18:25:06.138-0700] {processor.py:153} INFO - Started process (PID=19262) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:25:06.143-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:25:06.144-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:25:06.143-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:25:06.154-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:25:06.484-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:25:06.484-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:25:06.491-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:25:06.491-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:25:06.497-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.360 seconds
+[2023-10-24T18:26:06.611-0700] {processor.py:153} INFO - Started process (PID=19306) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:06.617-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:26:06.617-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:06.617-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:06.632-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:06.964-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:06.964-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:26:06.970-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:06.970-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:26:06.976-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.366 seconds
+[2023-10-24T18:26:37.871-0700] {processor.py:153} INFO - Started process (PID=19430) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:37.880-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:26:37.881-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:37.881-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:37.901-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:26:38.212-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:38.211-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:26:38.219-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:26:38.219-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:26:38.227-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T18:29:23.708-0700] {processor.py:153} INFO - Started process (PID=19459) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:29:23.725-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:29:23.726-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:29:23.726-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:29:23.737-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:29:24.057-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:29:24.057-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:29:24.065-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:29:24.065-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:29:24.071-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.365 seconds
+[2023-10-24T18:31:49.636-0700] {processor.py:153} INFO - Started process (PID=19514) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:31:49.641-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:31:49.641-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:31:49.641-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:31:49.651-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:31:49.984-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:31:49.984-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:31:49.991-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:31:49.991-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:31:49.998-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.363 seconds
+[2023-10-24T18:32:33.819-0700] {processor.py:153} INFO - Started process (PID=19543) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:32:33.825-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:32:33.826-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:32:33.826-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:32:33.836-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:32:34.151-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:32:34.151-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:32:34.158-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:32:34.158-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:32:34.164-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.345 seconds
+[2023-10-24T18:35:53.308-0700] {processor.py:153} INFO - Started process (PID=19577) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:35:53.313-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:35:53.314-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:35:53.314-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:35:53.325-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:35:53.658-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:35:53.658-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:35:53.664-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:35:53.664-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:35:53.670-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.363 seconds
+[2023-10-24T18:53:56.869-0700] {processor.py:153} INFO - Started process (PID=19629) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:53:56.874-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T18:53:56.874-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:53:56.874-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:53:56.884-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T18:53:57.213-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:53:57.213-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T18:53:57.220-0700] {logging_mixin.py:137} INFO - [2023-10-24T18:53:57.220-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T18:53:57.226-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T19:14:04.908-0700] {processor.py:153} INFO - Started process (PID=19682) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:04.921-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:14:04.921-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:04.921-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:04.931-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:05.231-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:05.231-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:14:05.238-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:05.238-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:14:05.244-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.338 seconds
+[2023-10-24T19:14:53.873-0700] {processor.py:153} INFO - Started process (PID=19719) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:53.879-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:14:53.880-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:53.880-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:53.890-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:14:54.201-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:54.201-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:14:54.208-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:14:54.208-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:14:54.214-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.342 seconds
+[2023-10-24T19:22:58.986-0700] {processor.py:153} INFO - Started process (PID=19756) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:22:59.000-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:22:59.000-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:22:59.000-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:22:59.011-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:22:59.331-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:22:59.331-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:22:59.337-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:22:59.337-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:22:59.343-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T19:33:47.687-0700] {processor.py:153} INFO - Started process (PID=19795) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:33:47.693-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:33:47.693-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:33:47.693-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:33:47.706-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:33:48.031-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:33:48.030-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:33:48.039-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:33:48.038-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:33:48.045-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T19:37:56.511-0700] {processor.py:153} INFO - Started process (PID=19826) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:37:56.517-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:37:56.517-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:37:56.517-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:37:56.535-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:37:56.855-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:37:56.855-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:37:56.862-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:37:56.862-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:37:56.869-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T19:38:40.606-0700] {processor.py:153} INFO - Started process (PID=19898) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:38:40.614-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:38:40.617-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:38:40.616-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:38:40.646-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:38:41.024-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:38:41.024-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:38:41.032-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:38:41.032-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:38:41.040-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.457 seconds
+[2023-10-24T19:51:19.079-0700] {processor.py:153} INFO - Started process (PID=19929) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:51:19.086-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:51:19.086-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:51:19.086-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:51:19.096-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:51:19.416-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:51:19.416-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:51:19.422-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:51:19.422-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:51:19.428-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.350 seconds
+[2023-10-24T19:54:57.631-0700] {processor.py:153} INFO - Started process (PID=19990) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:54:57.636-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:54:57.637-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:54:57.637-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:54:57.647-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:54:57.999-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:54:57.998-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:54:58.005-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:54:58.005-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:54:58.011-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.381 seconds
+[2023-10-24T19:55:45.108-0700] {processor.py:153} INFO - Started process (PID=20032) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:55:45.118-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:55:45.120-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:55:45.120-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:55:45.133-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:55:45.528-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:55:45.528-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:55:45.538-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:55:45.538-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:55:45.545-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.438 seconds
+[2023-10-24T19:56:17.516-0700] {processor.py:153} INFO - Started process (PID=20077) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:17.523-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:56:17.523-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:17.523-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:17.540-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:17.864-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:17.864-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:56:17.870-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:17.870-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:56:17.876-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.361 seconds
+[2023-10-24T19:56:48.944-0700] {processor.py:153} INFO - Started process (PID=20113) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:48.948-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:56:48.948-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:48.948-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:48.959-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:56:49.275-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:49.275-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:56:49.285-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:56:49.285-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:56:49.294-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.351 seconds
+[2023-10-24T19:57:20.414-0700] {processor.py:153} INFO - Started process (PID=20148) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:20.416-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:57:20.417-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:20.417-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:20.435-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:20.822-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:20.822-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:57:20.828-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:20.828-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:57:20.835-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.421 seconds
+[2023-10-24T19:57:51.865-0700] {processor.py:153} INFO - Started process (PID=20192) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:51.870-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:57:51.871-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:51.870-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:51.884-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:57:52.183-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:52.183-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:57:52.190-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:57:52.190-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:57:52.196-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.332 seconds
+[2023-10-24T19:58:23.465-0700] {processor.py:153} INFO - Started process (PID=20228) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:23.471-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:58:23.471-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:23.471-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:23.484-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:23.808-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:23.808-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:58:23.814-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:23.814-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:58:23.820-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.356 seconds
+[2023-10-24T19:58:54.621-0700] {processor.py:153} INFO - Started process (PID=20270) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:54.627-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:58:54.627-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:54.627-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:54.641-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:58:54.977-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:54.977-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:58:54.985-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:58:54.984-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:58:54.993-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.372 seconds
+[2023-10-24T19:59:26.054-0700] {processor.py:153} INFO - Started process (PID=20309) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:26.060-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:59:26.060-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:26.060-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:26.074-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:26.420-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:26.420-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:59:26.426-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:26.426-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:59:26.432-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.379 seconds
+[2023-10-24T19:59:57.412-0700] {processor.py:153} INFO - Started process (PID=20345) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:57.424-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T19:59:57.425-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:57.424-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:57.449-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T19:59:57.756-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:57.756-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T19:59:57.763-0700] {logging_mixin.py:137} INFO - [2023-10-24T19:59:57.763-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T19:59:57.769-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T20:00:28.889-0700] {processor.py:153} INFO - Started process (PID=20380) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:00:28.891-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:00:28.891-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:00:28.891-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:00:28.917-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:00:29.211-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:00:29.211-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:00:29.218-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:00:29.218-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:00:29.227-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.338 seconds
+[2023-10-24T20:01:00.246-0700] {processor.py:153} INFO - Started process (PID=20414) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:00.251-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:01:00.252-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:00.252-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:00.262-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:00.580-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:00.580-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:01:00.586-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:00.586-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:01:00.593-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.347 seconds
+[2023-10-24T20:01:31.760-0700] {processor.py:153} INFO - Started process (PID=20464) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:31.763-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:01:31.763-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:31.763-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:31.774-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:01:32.164-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:32.164-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:01:32.171-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:01:32.171-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:01:32.180-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.421 seconds
+[2023-10-24T20:02:03.317-0700] {processor.py:153} INFO - Started process (PID=20503) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:03.320-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:02:03.320-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:03.320-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:03.354-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:03.702-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:03.702-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:02:03.708-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:03.708-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:02:03.715-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.399 seconds
+[2023-10-24T20:02:34.645-0700] {processor.py:153} INFO - Started process (PID=20553) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:34.651-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:02:34.651-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:34.651-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:34.662-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:02:34.981-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:34.981-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:02:34.987-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:02:34.987-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:02:34.994-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.350 seconds
+[2023-10-24T20:03:05.873-0700] {processor.py:153} INFO - Started process (PID=20603) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:05.880-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:03:05.880-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:05.880-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:05.892-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:06.234-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:06.234-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:03:06.240-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:06.240-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:03:06.247-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.375 seconds
+[2023-10-24T20:03:37.152-0700] {processor.py:153} INFO - Started process (PID=20638) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:37.154-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:03:37.154-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:37.154-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:37.220-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:03:37.646-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:37.646-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:03:37.654-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:03:37.654-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:03:37.662-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.510 seconds
+[2023-10-24T20:04:08.701-0700] {processor.py:153} INFO - Started process (PID=20680) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:08.703-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:04:08.703-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:08.703-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:08.771-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:09.081-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:09.080-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:04:09.088-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:09.088-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:04:09.094-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.394 seconds
+[2023-10-24T20:04:40.309-0700] {processor.py:153} INFO - Started process (PID=20786) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:40.311-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:04:40.312-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:40.312-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:40.327-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:04:40.655-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:40.655-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:04:40.662-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:04:40.662-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:04:40.670-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.363 seconds
+[2023-10-24T20:05:11.623-0700] {processor.py:153} INFO - Started process (PID=20855) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:11.629-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:05:11.629-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:11.629-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:11.642-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:11.984-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:11.984-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:05:11.991-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:11.991-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:05:11.997-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.375 seconds
+[2023-10-24T20:05:43.280-0700] {processor.py:153} INFO - Started process (PID=20907) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:43.287-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:05:43.287-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:43.287-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:43.308-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:05:43.629-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:43.628-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:05:43.636-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:05:43.636-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:05:43.644-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.364 seconds
+[2023-10-24T20:06:15.099-0700] {processor.py:153} INFO - Started process (PID=20959) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:15.102-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:06:15.109-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:15.102-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:15.141-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:15.473-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:15.473-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:06:15.480-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:15.480-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:06:15.494-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.395 seconds
+[2023-10-24T20:06:46.714-0700] {processor.py:153} INFO - Started process (PID=21039) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:46.719-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:06:46.719-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:46.719-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:46.730-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:06:47.037-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:47.036-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:06:47.044-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:06:47.044-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:06:47.050-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.337 seconds
+[2023-10-24T20:07:18.027-0700] {processor.py:153} INFO - Started process (PID=21091) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:18.033-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:07:18.033-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:18.033-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:18.046-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:18.360-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:18.360-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:07:18.367-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:18.367-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:07:18.374-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T20:07:49.364-0700] {processor.py:153} INFO - Started process (PID=21142) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:49.370-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:07:49.370-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:49.370-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:49.382-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:07:49.706-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:49.706-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:07:49.713-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:07:49.713-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:07:49.719-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T20:08:20.760-0700] {processor.py:153} INFO - Started process (PID=21191) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:20.767-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:08:20.767-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:20.767-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:20.778-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:21.112-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:21.111-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:08:21.119-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:21.119-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:08:21.126-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.367 seconds
+[2023-10-24T20:08:52.420-0700] {processor.py:153} INFO - Started process (PID=21249) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:52.422-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:08:52.422-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:52.422-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:52.433-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:08:52.780-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:52.780-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:08:52.788-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:08:52.788-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:08:52.794-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.375 seconds
+[2023-10-24T20:09:23.787-0700] {processor.py:153} INFO - Started process (PID=21300) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:23.795-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:09:23.805-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:23.796-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:23.821-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:24.129-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:24.129-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:09:24.136-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:24.136-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:09:24.143-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T20:09:55.239-0700] {processor.py:153} INFO - Started process (PID=21349) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:55.242-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:09:55.242-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:55.242-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:55.257-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:09:55.588-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:55.588-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:09:55.595-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:09:55.595-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:09:55.601-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.362 seconds
+[2023-10-24T20:10:26.610-0700] {processor.py:153} INFO - Started process (PID=21408) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:26.616-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:10:26.616-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:26.616-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:26.627-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:26.954-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:26.954-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:10:26.960-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:26.960-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:10:26.967-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T20:10:58.080-0700] {processor.py:153} INFO - Started process (PID=21445) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:58.082-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:10:58.082-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:58.082-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:58.093-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:10:58.423-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:58.423-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:10:58.430-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:10:58.430-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:10:58.436-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T20:11:29.518-0700] {processor.py:153} INFO - Started process (PID=21481) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:11:29.520-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:11:29.520-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:11:29.520-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:11:29.530-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:11:29.834-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:11:29.833-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:11:29.841-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:11:29.841-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:11:29.847-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.329 seconds
+[2023-10-24T20:12:00.900-0700] {processor.py:153} INFO - Started process (PID=21515) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:00.905-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:12:00.906-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:00.906-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:00.916-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:01.231-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:01.231-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:12:01.237-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:01.237-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:12:01.244-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.345 seconds
+[2023-10-24T20:12:32.207-0700] {processor.py:153} INFO - Started process (PID=21549) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:32.213-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:12:32.213-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:32.213-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:32.224-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:12:32.547-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:32.547-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:12:32.554-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:12:32.553-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:12:32.560-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.353 seconds
+[2023-10-24T20:13:04.009-0700] {processor.py:153} INFO - Started process (PID=21585) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:04.015-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:13:04.015-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:04.015-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:04.033-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:04.354-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:04.354-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:13:04.361-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:04.361-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:13:04.367-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T20:13:35.420-0700] {processor.py:153} INFO - Started process (PID=21635) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:35.422-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:13:35.422-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:35.422-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:35.440-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:13:35.859-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:35.859-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:13:35.866-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:13:35.866-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:13:35.872-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.453 seconds
+[2023-10-24T20:14:06.841-0700] {processor.py:153} INFO - Started process (PID=21833) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:06.848-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:14:06.848-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:06.848-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:06.858-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:07.204-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:07.204-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:14:07.211-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:07.211-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:14:07.217-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.377 seconds
+[2023-10-24T20:14:38.364-0700] {processor.py:153} INFO - Started process (PID=21942) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:38.375-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:14:38.375-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:38.375-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:38.386-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:14:38.691-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:38.691-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:14:38.698-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:14:38.698-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:14:38.704-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.340 seconds
+[2023-10-24T20:15:09.660-0700] {processor.py:153} INFO - Started process (PID=21979) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:09.665-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:15:09.666-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:09.666-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:09.676-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:10.015-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:10.015-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:15:10.022-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:10.022-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:15:10.029-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.370 seconds
+[2023-10-24T20:15:40.988-0700] {processor.py:153} INFO - Started process (PID=22020) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:40.994-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:15:40.994-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:40.994-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:41.005-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:15:41.617-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:41.617-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:15:41.626-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:15:41.626-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:15:41.643-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.655 seconds
+[2023-10-24T20:16:12.369-0700] {processor.py:153} INFO - Started process (PID=22059) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:12.375-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:16:12.375-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:12.375-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:12.386-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:12.712-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:12.712-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:16:12.719-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:12.719-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:16:12.725-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T20:16:44.119-0700] {processor.py:153} INFO - Started process (PID=22112) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:44.123-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:16:44.123-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:44.123-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:44.138-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:16:44.493-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:44.493-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:16:44.499-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:44.499-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:16:44.507-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.388 seconds
+[2023-10-24T20:17:15.617-0700] {processor.py:153} INFO - Started process (PID=22171) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:15.623-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:17:15.623-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:15.623-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:15.636-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:15.993-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:15.993-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:17:16.000-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:16.000-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:17:16.006-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.390 seconds
+[2023-10-24T20:17:48.045-0700] {processor.py:153} INFO - Started process (PID=22223) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:48.047-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:17:48.048-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:48.048-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:48.059-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:17:48.425-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:48.425-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:17:48.432-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:48.432-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:17:48.439-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.394 seconds
+[2023-10-24T20:18:19.745-0700] {processor.py:153} INFO - Started process (PID=22287) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:19.752-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:18:19.752-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:19.752-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:19.775-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:20.135-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:20.135-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:18:20.142-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:20.141-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:18:20.148-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.404 seconds
+[2023-10-24T20:18:51.142-0700] {processor.py:153} INFO - Started process (PID=22325) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:51.148-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:18:51.148-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:51.148-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:51.166-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:18:51.521-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:51.521-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:18:51.528-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:51.528-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:18:51.534-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.393 seconds
+[2023-10-24T20:19:22.482-0700] {processor.py:153} INFO - Started process (PID=22369) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:22.485-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:19:22.485-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:22.485-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:22.499-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:22.809-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:22.809-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:19:22.815-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:22.815-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:19:22.821-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.339 seconds
+[2023-10-24T20:19:53.522-0700] {processor.py:153} INFO - Started process (PID=22404) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:53.528-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:19:53.528-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:53.528-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:53.538-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:19:53.856-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:53.856-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:19:53.862-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:53.862-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:19:53.869-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.348 seconds
+[2023-10-24T20:20:24.561-0700] {processor.py:153} INFO - Started process (PID=22443) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:24.568-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:20:24.568-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:24.568-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:24.581-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:24.903-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:24.903-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:20:24.910-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:24.910-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:20:24.918-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.358 seconds
+[2023-10-24T20:20:56.319-0700] {processor.py:153} INFO - Started process (PID=22490) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:56.321-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:20:56.321-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:56.321-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:56.333-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:20:56.660-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:56.660-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:20:56.666-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:56.666-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:20:56.672-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.353 seconds
+[2023-10-24T20:21:27.609-0700] {processor.py:153} INFO - Started process (PID=22537) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:27.615-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:21:27.615-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:27.615-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:27.629-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:27.962-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:27.961-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:21:27.986-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:27.986-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:21:27.993-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.386 seconds
+[2023-10-24T20:21:59.645-0700] {processor.py:153} INFO - Started process (PID=22574) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:59.650-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:21:59.651-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:59.651-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:59.662-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:21:59.973-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:59.973-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:21:59.980-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:59.980-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:21:59.986-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.342 seconds
+[2023-10-24T20:22:31.283-0700] {processor.py:153} INFO - Started process (PID=22612) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:22:31.287-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:22:31.288-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:31.288-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:22:31.299-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:22:31.622-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:31.622-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:22:31.629-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:31.629-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:22:31.635-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.353 seconds
+[2023-10-24T20:23:02.612-0700] {processor.py:153} INFO - Started process (PID=22659) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:02.618-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:23:02.618-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:02.618-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:02.638-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:02.955-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:02.955-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:23:02.962-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:02.962-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:23:02.968-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T20:23:33.830-0700] {processor.py:153} INFO - Started process (PID=22697) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:33.837-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:23:33.837-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:33.837-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:33.871-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:23:34.201-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:34.201-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:23:34.207-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:34.207-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:23:34.214-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.384 seconds
+[2023-10-24T20:24:05.131-0700] {processor.py:153} INFO - Started process (PID=22737) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:05.136-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:24:05.136-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:05.136-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:05.148-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:05.462-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:05.462-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:24:05.468-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:05.468-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:24:05.475-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.345 seconds
+[2023-10-24T20:24:36.438-0700] {processor.py:153} INFO - Started process (PID=22786) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:36.444-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:24:36.444-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:36.444-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:36.454-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:24:36.790-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:36.790-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:24:36.797-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:36.797-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:24:36.803-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.367 seconds
+[2023-10-24T20:25:07.803-0700] {processor.py:153} INFO - Started process (PID=22821) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:07.805-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:25:07.806-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:07.806-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:07.825-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:08.191-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:08.191-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:25:08.197-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:08.197-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:25:08.205-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.403 seconds
+[2023-10-24T20:25:39.246-0700] {processor.py:153} INFO - Started process (PID=22856) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:39.252-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:25:39.252-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:39.252-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:39.263-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:25:39.621-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:39.621-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:25:39.633-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:39.633-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:25:39.643-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.398 seconds
+[2023-10-24T20:26:10.385-0700] {processor.py:153} INFO - Started process (PID=22893) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:10.391-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:26:10.391-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:10.391-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:10.402-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:10.720-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:10.719-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:26:10.726-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:10.726-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:26:10.733-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T20:26:41.738-0700] {processor.py:153} INFO - Started process (PID=22942) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:41.744-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:26:41.744-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:41.744-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:41.754-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:26:42.075-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:42.075-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:26:42.082-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:42.082-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:26:42.088-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.351 seconds
+[2023-10-24T20:27:12.929-0700] {processor.py:153} INFO - Started process (PID=22982) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:12.940-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:27:12.940-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:12.940-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:12.951-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:13.297-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:13.297-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:27:13.307-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:13.307-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:27:13.314-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.386 seconds
+[2023-10-24T20:27:44.556-0700] {processor.py:153} INFO - Started process (PID=23019) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:44.563-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:27:44.563-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:44.563-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:44.583-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:27:44.907-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:44.906-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:27:44.914-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:44.914-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:27:44.920-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.365 seconds
+[2023-10-24T20:28:15.827-0700] {processor.py:153} INFO - Started process (PID=23071) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:15.833-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:28:15.833-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:15.833-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:15.843-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:16.216-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:16.216-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:28:16.222-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:16.222-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:28:16.229-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.402 seconds
+[2023-10-24T20:28:47.144-0700] {processor.py:153} INFO - Started process (PID=23126) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:47.150-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:28:47.150-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:47.150-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:47.165-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:28:47.479-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:47.479-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:28:47.486-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:47.486-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:28:47.493-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.350 seconds
+[2023-10-24T20:29:18.352-0700] {processor.py:153} INFO - Started process (PID=23177) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:18.358-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:29:18.358-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:18.358-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:18.379-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:18.719-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:18.719-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:29:18.726-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:18.726-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:29:18.733-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.382 seconds
+[2023-10-24T20:29:50.984-0700] {processor.py:153} INFO - Started process (PID=23233) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:50.986-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:29:50.986-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:50.986-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:50.999-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:29:51.394-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:51.394-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:29:51.400-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:51.400-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:29:51.408-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.424 seconds
+[2023-10-24T20:30:22.441-0700] {processor.py:153} INFO - Started process (PID=23288) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:22.447-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:30:22.448-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:22.448-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:22.458-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:22.778-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:22.778-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:30:22.785-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:22.785-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:30:22.791-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.350 seconds
+[2023-10-24T20:30:53.742-0700] {processor.py:153} INFO - Started process (PID=23324) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:53.748-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:30:53.748-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:53.748-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:53.761-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:30:54.075-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:54.075-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:30:54.081-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:54.081-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:30:54.088-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.347 seconds
+[2023-10-24T20:31:25.098-0700] {processor.py:153} INFO - Started process (PID=23364) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:25.104-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:31:25.104-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:25.104-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:25.114-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:25.430-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:25.429-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:31:25.437-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:25.437-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:31:25.443-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.346 seconds
+[2023-10-24T20:31:56.628-0700] {processor.py:153} INFO - Started process (PID=23407) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:56.635-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:31:56.635-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:56.635-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:56.646-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:31:56.985-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:56.984-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:31:56.991-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:56.991-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:31:56.998-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.370 seconds
+[2023-10-24T20:32:28.003-0700] {processor.py:153} INFO - Started process (PID=23444) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:28.010-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:32:28.010-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:28.010-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:28.022-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:28.316-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:28.316-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:32:28.323-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:28.323-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:32:28.330-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.327 seconds
+[2023-10-24T20:32:59.423-0700] {processor.py:153} INFO - Started process (PID=23482) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:59.429-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:32:59.430-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:59.430-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:59.441-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:32:59.809-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:59.809-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:32:59.816-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:59.816-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:32:59.823-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.400 seconds
+[2023-10-24T20:33:30.899-0700] {processor.py:153} INFO - Started process (PID=23521) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:33:30.906-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:33:30.906-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:30.906-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:33:30.926-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:33:31.259-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:31.259-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:33:31.266-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:31.266-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:33:31.272-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.375 seconds
+[2023-10-24T20:34:02.366-0700] {processor.py:153} INFO - Started process (PID=23558) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:02.371-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:34:02.371-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:02.371-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:02.383-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:02.684-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:02.684-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:34:02.691-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:02.690-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:34:02.697-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.332 seconds
+[2023-10-24T20:34:33.648-0700] {processor.py:153} INFO - Started process (PID=23593) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:33.651-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:34:33.652-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:33.652-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:33.663-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:34:33.952-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:33.952-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:34:33.959-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:33.959-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:34:33.965-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.318 seconds
+[2023-10-24T20:35:05.110-0700] {processor.py:153} INFO - Started process (PID=23640) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:05.116-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:35:05.116-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:05.116-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:05.133-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:05.446-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:05.446-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:35:05.452-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:05.452-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:35:05.459-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T20:35:36.599-0700] {processor.py:153} INFO - Started process (PID=23678) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:36.605-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:35:36.605-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:36.605-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:36.618-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:35:36.906-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:36.906-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:35:36.912-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:36.912-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:35:36.919-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.321 seconds
+[2023-10-24T20:36:08.018-0700] {processor.py:153} INFO - Started process (PID=23736) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:08.024-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:36:08.025-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:08.025-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:08.037-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:08.354-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:08.353-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:36:08.360-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:08.360-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:36:08.367-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.350 seconds
+[2023-10-24T20:36:39.346-0700] {processor.py:153} INFO - Started process (PID=23792) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:39.355-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:36:39.355-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:39.355-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:39.367-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:36:39.693-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:39.693-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:36:39.700-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:39.700-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:36:39.708-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.362 seconds
+[2023-10-24T20:37:05.765-0700] {processor.py:153} INFO - Started process (PID=23876) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:05.771-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:37:05.771-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:05.771-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:05.786-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:06.084-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:06.083-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:37:06.089-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:06.089-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:37:06.096-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.333 seconds
+[2023-10-24T20:37:36.798-0700] {processor.py:153} INFO - Started process (PID=23924) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:36.802-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:37:36.802-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:36.802-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:36.814-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:37:37.206-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:37.205-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:37:37.215-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:37.215-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:37:37.221-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.424 seconds
+[2023-10-24T20:38:09.575-0700] {processor.py:153} INFO - Started process (PID=23982) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:09.580-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:38:09.580-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:09.580-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:09.592-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:09.969-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:09.969-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:38:09.976-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:09.976-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:38:09.982-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.409 seconds
+[2023-10-24T20:38:40.639-0700] {processor.py:153} INFO - Started process (PID=24072) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:40.641-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:38:40.641-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:40.641-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:40.653-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:38:41.004-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:41.004-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:38:41.011-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:41.011-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:38:41.017-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.379 seconds
+[2023-10-24T20:39:17.241-0700] {processor.py:153} INFO - Started process (PID=24144) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:17.243-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:39:17.243-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:17.243-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:17.259-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:17.612-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:17.612-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:39:17.620-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:17.620-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:39:17.626-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.385 seconds
+[2023-10-24T20:39:48.564-0700] {processor.py:153} INFO - Started process (PID=24189) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:48.570-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:39:48.570-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:48.570-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:48.580-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:39:48.905-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:48.905-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:39:48.912-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:48.912-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:39:48.919-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.355 seconds
+[2023-10-24T20:40:19.842-0700] {processor.py:153} INFO - Started process (PID=24229) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:19.848-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:40:19.848-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:19.848-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:19.858-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:20.184-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:20.184-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:40:20.191-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:20.191-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:40:20.197-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.356 seconds
+[2023-10-24T20:40:50.965-0700] {processor.py:153} INFO - Started process (PID=24273) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:50.971-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:40:50.972-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:50.971-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:50.982-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:40:51.307-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:51.307-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:40:51.314-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:51.314-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:40:51.321-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.356 seconds
+[2023-10-24T20:41:22.815-0700] {processor.py:153} INFO - Started process (PID=24309) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:22.824-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:41:22.825-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:22.824-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:22.834-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:23.179-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:23.179-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:41:23.186-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:23.186-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:41:23.192-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.378 seconds
+[2023-10-24T20:41:54.559-0700] {processor.py:153} INFO - Started process (PID=24346) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:54.567-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:41:54.567-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:54.567-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:54.585-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:41:54.916-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:54.916-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:41:54.923-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:54.923-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:41:54.929-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.371 seconds
+[2023-10-24T20:42:26.108-0700] {processor.py:153} INFO - Started process (PID=24408) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:26.118-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:42:26.118-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:26.118-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:26.128-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:26.461-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:26.461-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:42:26.468-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:26.468-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:42:26.474-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.367 seconds
+[2023-10-24T20:42:57.297-0700] {processor.py:153} INFO - Started process (PID=24444) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:57.303-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:42:57.304-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:57.303-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:57.314-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:42:57.626-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:57.625-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:42:57.632-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:57.631-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:42:57.638-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.342 seconds
+[2023-10-24T20:43:29.274-0700] {processor.py:153} INFO - Started process (PID=24556) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:43:29.280-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:43:29.280-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:29.280-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:43:29.290-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:43:29.622-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:29.622-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:43:29.629-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:29.628-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:43:29.635-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.362 seconds
+[2023-10-24T20:44:00.306-0700] {processor.py:153} INFO - Started process (PID=24612) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:00.312-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:44:00.313-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:00.313-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:00.322-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:00.677-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:00.677-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:44:00.687-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:00.687-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:44:00.694-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.389 seconds
+[2023-10-24T20:44:32.621-0700] {processor.py:153} INFO - Started process (PID=24658) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:32.627-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:44:32.627-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:32.627-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:32.637-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:44:33.007-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:33.007-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:44:33.014-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:33.014-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:44:33.021-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.401 seconds
+[2023-10-24T20:45:03.754-0700] {processor.py:153} INFO - Started process (PID=24695) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:03.765-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:45:03.765-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:03.765-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:03.775-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:04.099-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:04.099-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:45:04.106-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:04.106-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:45:04.112-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.359 seconds
+[2023-10-24T20:45:34.990-0700] {processor.py:153} INFO - Started process (PID=24731) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:34.996-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:45:34.996-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:34.996-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:35.006-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:45:35.325-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:35.324-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:45:35.331-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:35.331-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:45:35.337-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.352 seconds
+[2023-10-24T20:46:06.214-0700] {processor.py:153} INFO - Started process (PID=24771) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:06.220-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:46:06.220-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:06.220-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:06.243-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:06.540-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:06.540-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:46:06.547-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:06.547-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:46:06.554-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.340 seconds
+[2023-10-24T20:46:37.417-0700] {processor.py:153} INFO - Started process (PID=24807) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:37.419-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:46:37.420-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:37.419-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:37.431-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:46:37.716-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:37.716-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:46:37.723-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:37.723-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:46:37.730-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.316 seconds
+[2023-10-24T20:47:08.589-0700] {processor.py:153} INFO - Started process (PID=24843) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:08.595-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:47:08.595-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:08.595-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:08.606-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:08.900-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:08.900-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:47:08.906-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:08.906-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:47:08.913-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.324 seconds
+[2023-10-24T20:47:40.865-0700] {processor.py:153} INFO - Started process (PID=24881) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:40.871-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:47:40.872-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:40.872-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:40.882-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:47:41.298-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:41.298-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:47:41.305-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:41.305-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:47:41.312-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.448 seconds
+[2023-10-24T20:48:12.208-0700] {processor.py:153} INFO - Started process (PID=24917) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:12.214-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:48:12.214-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:12.214-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:12.224-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:12.551-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:12.551-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:48:12.558-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:12.558-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:48:12.564-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.357 seconds
+[2023-10-24T20:48:43.917-0700] {processor.py:153} INFO - Started process (PID=24954) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:43.923-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:48:43.923-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:43.923-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:43.933-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:48:44.248-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:44.248-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:48:44.255-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:44.255-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:48:44.261-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.345 seconds
+[2023-10-24T20:49:15.229-0700] {processor.py:153} INFO - Started process (PID=24990) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:15.235-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:49:15.235-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:15.235-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:15.245-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:15.568-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:15.568-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:49:15.575-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:15.575-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:49:15.581-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.353 seconds
+[2023-10-24T20:49:46.819-0700] {processor.py:153} INFO - Started process (PID=25027) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:46.827-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:49:46.828-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:46.828-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:46.838-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:49:47.154-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:47.154-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:49:47.160-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:47.160-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:49:47.167-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.349 seconds
+[2023-10-24T20:50:18.132-0700] {processor.py:153} INFO - Started process (PID=25063) to work on /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:50:18.138-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/automate_extraction_dag.py for tasks to queue
+[2023-10-24T20:50:18.138-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:18.138-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:50:18.149-0700] {processor.py:753} INFO - DAG(s) dict_keys(['extract_dag']) retrieved from /Users/anishmore/airflow/dags/automate_extraction_dag.py
+[2023-10-24T20:50:18.436-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:18.436-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:50:18.443-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:18.443-0700] {dag.py:3437} INFO - Setting next_dagrun for extract_dag to None, run_after=None
+[2023-10-24T20:50:18.449-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/automate_extraction_dag.py took 0.318 seconds

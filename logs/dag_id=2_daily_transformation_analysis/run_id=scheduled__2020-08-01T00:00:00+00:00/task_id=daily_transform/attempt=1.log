@@ -1,0 +1,70 @@
+[2023-11-05T15:54:08.905-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: 2_daily_transformation_analysis.daily_transform scheduled__2020-08-01T00:00:00+00:00 [queued]>
+[2023-11-05T15:54:08.913-0800] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: 2_daily_transformation_analysis.daily_transform scheduled__2020-08-01T00:00:00+00:00 [queued]>
+[2023-11-05T15:54:08.913-0800] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T15:54:08.913-0800] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-05T15:54:08.913-0800] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05T15:54:08.918-0800] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): daily_transform> on 2020-08-01 00:00:00+00:00
+[2023-11-05T15:54:08.922-0800] {standard_task_runner.py:55} INFO - Started process 90038 to run task
+[2023-11-05T15:54:08.925-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', '2_daily_transformation_analysis', 'daily_transform', 'scheduled__2020-08-01T00:00:00+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/transform_and_analysis.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmp6yk5kysj']
+[2023-11-05T15:54:08.927-0800] {standard_task_runner.py:83} INFO - Job 104: Subtask daily_transform
+[2023-11-05T15:54:08.952-0800] {task_command.py:388} INFO - Running <TaskInstance: 2_daily_transformation_analysis.daily_transform scheduled__2020-08-01T00:00:00+00:00 [running]> on host anishs-air.lan
+[2023-11-05T15:54:08.964-0800] {abstractoperator.py:609} ERROR - Exception rendering Jinja template for task 'daily_transform', field 'env'. Template: {'dbt_user': '{{ var.value.dbt_user }}', 'dbt_password': '{{ var.value.dbt_password }}', 'MallocNanoZone': '0', 'USER': 'anishmore', 'COMMAND_MODE': 'unix2003', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PATH': '/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/development/flutter/bin:/Applications/development/flutter/bin:/Applications/development/flutter/bin', 'LOGNAME': 'anishmore', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.fxDwAQkpXw/Listeners', 'HOME': '/Users/anishmore', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'XPC_SERVICE_NAME': '0', 'XPC_FLAGS': '0x0', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'SHLVL': '1', 'PWD': '/Users/anishmore/airflow', 'OLDPWD': '/Users/anishmore/airflow', 'HOMEBREW_PREFIX': '/opt/homebrew', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'MANPATH': '/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/opt/homebrew/share/man::', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'NVM_DIR': '/Users/anishmore/.nvm', 'NVM_CD_FLAGS': '-q', 'NVM_NODEJS_ORG_MIRROR': 'https://nodejs.org/dist', 'NVM_IOJS_ORG_MIRROR': 'https://iojs.org/dist', 'NVM_RC_VERSION': '', 'TERM_PROGRAM': 'vscode', 'TERM_PROGRAM_VERSION': '1.84.0', 'LANG': 'en_US.UTF-8', 'COLORTERM': 'truecolor', 'GIT_ASKPASS': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/vscode-git-53034f7973.sock', 'VSCODE_INJECTION': '1', 'ZDOTDIR': '/Users/anishmore', 'USER_ZDOTDIR': '/Users/anishmore', 'TERM': 'xterm-256color', '_': '/opt/homebrew/bin/airflow'}
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 602, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 663, in render_template
+    return render_template_to_string(template, context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 12, in root
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/sandbox.py", line 326, in getattr
+    value = getattr(obj, attribute)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/context.py", line 103, in __getattr__
+    self.var = Variable.get(key, deserialize_json=self._deserialize_json)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable dbt_user does not exist'
+[2023-11-05T15:54:08.967-0800] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1374, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1493, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2115, in render_templates
+    original_task.render_template_fields(context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 1179, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 602, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 676, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/abstractoperator.py", line 663, in render_template
+    return render_template_to_string(template, context)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 12, in root
+  File "/opt/homebrew/lib/python3.10/site-packages/jinja2/sandbox.py", line 326, in getattr
+    value = getattr(obj, attribute)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/utils/context.py", line 103, in __getattr__
+    self.var = Variable.get(key, deserialize_json=self._deserialize_json)
+  File "/opt/homebrew/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable dbt_user does not exist'
+[2023-11-05T15:54:08.970-0800] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=2_daily_transformation_analysis, task_id=daily_transform, execution_date=20200801T000000, start_date=20231105T235408, end_date=20231105T235408
+[2023-11-05T15:54:08.974-0800] {standard_task_runner.py:100} ERROR - Failed to execute job 104 for task daily_transform ('Variable dbt_user does not exist'; 90038)
+[2023-11-05T15:54:08.985-0800] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-11-05T15:54:08.993-0800] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

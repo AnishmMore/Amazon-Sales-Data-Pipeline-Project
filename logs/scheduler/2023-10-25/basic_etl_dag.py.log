@@ -1,0 +1,459 @@
+[2023-10-24T20:16:21.045-0700] {processor.py:153} INFO - Started process (PID=22078) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:21.047-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:16:21.047-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.047-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:21.286-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:21.577-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.577-0700] {manager.py:504} INFO - Created Permission View: can read on DAG:etl_dag
+[2023-10-24T20:16:21.580-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.580-0700] {manager.py:504} INFO - Created Permission View: can delete on DAG:etl_dag
+[2023-10-24T20:16:21.582-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.582-0700] {manager.py:504} INFO - Created Permission View: can edit on DAG:etl_dag
+[2023-10-24T20:16:21.582-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.582-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:16:21.586-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.586-0700] {dag.py:2711} INFO - Creating ORM DAG for etl_dag
+[2023-10-24T20:16:21.589-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:21.589-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:16:21.595-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.551 seconds
+[2023-10-24T20:16:53.028-0700] {processor.py:153} INFO - Started process (PID=22131) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:53.033-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:16:53.034-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:53.033-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:53.298-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:16:53.548-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:53.548-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:16:53.554-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:16:53.554-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:16:53.561-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.534 seconds
+[2023-10-24T20:17:24.224-0700] {processor.py:153} INFO - Started process (PID=22184) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:24.233-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:17:24.234-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:24.234-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:24.636-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:24.897-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:24.897-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:17:24.905-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:24.905-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:17:24.912-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.689 seconds
+[2023-10-24T20:17:56.262-0700] {processor.py:153} INFO - Started process (PID=22239) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:56.264-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:17:56.264-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:56.264-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:56.551-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:17:56.809-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:56.809-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:17:56.815-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:17:56.815-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:17:56.822-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.561 seconds
+[2023-10-24T20:18:28.155-0700] {processor.py:153} INFO - Started process (PID=22300) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:18:28.161-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:18:28.162-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:28.161-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:18:28.438-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:18:28.678-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:28.678-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:18:28.685-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:28.685-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:18:28.691-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.537 seconds
+[2023-10-24T20:18:59.600-0700] {processor.py:153} INFO - Started process (PID=22340) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:18:59.602-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:18:59.603-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:18:59.603-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:18:59.895-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:19:00.338-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:00.338-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:19:00.346-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:00.346-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:19:00.353-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.753 seconds
+[2023-10-24T20:19:31.173-0700] {processor.py:153} INFO - Started process (PID=22380) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:19:31.180-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:19:31.180-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:31.180-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:19:31.453-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:19:31.700-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:31.700-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:19:31.707-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:19:31.707-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:19:31.714-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.542 seconds
+[2023-10-24T20:20:02.577-0700] {processor.py:153} INFO - Started process (PID=22415) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:02.583-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:20:02.584-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:02.584-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:02.896-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:03.136-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:03.136-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:20:03.143-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:03.143-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:20:03.150-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.574 seconds
+[2023-10-24T20:20:34.593-0700] {processor.py:153} INFO - Started process (PID=22456) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:34.599-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:20:34.599-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:34.599-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:34.897-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:20:35.155-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:35.155-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:20:35.163-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:20:35.162-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:20:35.169-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.577 seconds
+[2023-10-24T20:21:06.353-0700] {processor.py:153} INFO - Started process (PID=22509) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:06.359-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:21:06.360-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:06.360-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:06.662-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:06.911-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:06.911-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:21:06.919-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:06.919-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:21:06.925-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.573 seconds
+[2023-10-24T20:21:37.660-0700] {processor.py:153} INFO - Started process (PID=22550) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:37.665-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:21:37.665-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:37.665-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:38.606-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:21:39.134-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:39.134-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:21:39.158-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:21:39.158-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:21:39.191-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 1.531 seconds
+[2023-10-24T20:22:10.614-0700] {processor.py:153} INFO - Started process (PID=22587) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:10.625-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:22:10.625-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:10.625-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:10.907-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:11.142-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:11.142-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:22:11.149-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:11.148-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:22:11.155-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.541 seconds
+[2023-10-24T20:22:42.332-0700] {processor.py:153} INFO - Started process (PID=22625) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:42.338-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:22:42.338-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:42.338-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:42.587-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:22:42.825-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:42.825-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:22:42.831-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:22:42.831-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:22:42.838-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.507 seconds
+[2023-10-24T20:23:13.599-0700] {processor.py:153} INFO - Started process (PID=22674) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:13.609-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:23:13.609-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:13.609-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:13.879-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:14.122-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:14.121-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:23:14.128-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:14.128-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:23:14.135-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.536 seconds
+[2023-10-24T20:23:44.834-0700] {processor.py:153} INFO - Started process (PID=22711) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:44.840-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:23:44.840-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:44.840-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:45.102-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:23:45.347-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:45.347-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:23:45.353-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:23:45.353-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:23:45.360-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.527 seconds
+[2023-10-24T20:24:16.240-0700] {processor.py:153} INFO - Started process (PID=22762) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:16.242-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:24:16.242-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:16.242-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:16.498-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:16.753-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:16.753-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:24:16.760-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:16.760-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:24:16.767-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.527 seconds
+[2023-10-24T20:24:47.504-0700] {processor.py:153} INFO - Started process (PID=22799) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:47.506-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:24:47.506-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:47.506-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:47.762-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:24:48.012-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:48.012-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:24:48.018-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:24:48.018-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:24:48.025-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.522 seconds
+[2023-10-24T20:25:18.916-0700] {processor.py:153} INFO - Started process (PID=22834) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:18.926-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:25:18.926-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:18.926-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:19.243-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:19.476-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:19.476-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:25:19.482-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:19.482-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:25:19.489-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.574 seconds
+[2023-10-24T20:25:50.278-0700] {processor.py:153} INFO - Started process (PID=22871) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:50.285-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:25:50.286-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:50.285-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:50.565-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:25:50.804-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:50.804-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:25:50.810-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:25:50.810-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:25:50.817-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.540 seconds
+[2023-10-24T20:26:21.612-0700] {processor.py:153} INFO - Started process (PID=22910) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:21.618-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:26:21.618-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:21.618-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:21.891-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:22.132-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:22.132-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:26:22.139-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:22.139-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:26:22.146-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.537 seconds
+[2023-10-24T20:26:52.894-0700] {processor.py:153} INFO - Started process (PID=22959) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:52.897-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:26:52.897-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:52.897-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:53.147-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:26:53.412-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:53.412-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:26:53.418-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:26:53.418-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:26:53.425-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.531 seconds
+[2023-10-24T20:27:24.216-0700] {processor.py:153} INFO - Started process (PID=22996) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:24.221-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:27:24.221-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:24.221-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:24.492-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:24.733-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:24.733-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:27:24.739-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:24.739-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:27:24.745-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.530 seconds
+[2023-10-24T20:27:55.947-0700] {processor.py:153} INFO - Started process (PID=23039) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:55.952-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:27:55.952-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:55.952-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:56.243-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:27:56.517-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:56.517-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:27:56.525-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:27:56.525-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:27:56.531-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.586 seconds
+[2023-10-24T20:28:27.302-0700] {processor.py:153} INFO - Started process (PID=23095) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:27.308-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:28:27.308-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:27.308-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:27.583-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:27.846-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:27.846-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:28:27.854-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:27.854-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:28:27.861-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.560 seconds
+[2023-10-24T20:28:58.697-0700] {processor.py:153} INFO - Started process (PID=23153) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:58.703-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:28:58.704-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:58.704-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:58.959-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:28:59.226-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:59.226-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:28:59.233-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:28:59.233-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:28:59.239-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.544 seconds
+[2023-10-24T20:29:29.956-0700] {processor.py:153} INFO - Started process (PID=23191) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:29:29.959-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:29:29.959-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:29.959-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:29:30.335-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:29:30.590-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:30.590-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:29:30.598-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:29:30.598-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:29:30.605-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.650 seconds
+[2023-10-24T20:30:01.365-0700] {processor.py:153} INFO - Started process (PID=23251) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:01.370-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:30:01.375-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:01.375-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:01.702-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:01.973-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:01.973-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:30:01.981-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:01.981-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:30:01.987-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.624 seconds
+[2023-10-24T20:30:33.415-0700] {processor.py:153} INFO - Started process (PID=23302) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:33.423-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:30:33.423-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:33.423-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:33.699-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:30:33.943-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:33.943-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:30:33.951-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:30:33.951-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:30:33.957-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.542 seconds
+[2023-10-24T20:31:04.700-0700] {processor.py:153} INFO - Started process (PID=23337) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:04.705-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:31:04.706-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:04.706-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:05.063-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:05.307-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:05.307-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:31:05.313-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:05.313-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:31:05.320-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.621 seconds
+[2023-10-24T20:31:36.279-0700] {processor.py:153} INFO - Started process (PID=23377) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:36.285-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:31:36.286-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:36.286-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:36.539-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:31:36.789-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:36.789-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:31:36.796-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:31:36.796-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:31:36.803-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.525 seconds
+[2023-10-24T20:32:07.755-0700] {processor.py:153} INFO - Started process (PID=23421) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:07.760-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:32:07.760-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:07.760-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:08.030-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:08.274-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:08.273-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:32:08.281-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:08.281-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:32:08.288-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.533 seconds
+[2023-10-24T20:32:39.425-0700] {processor.py:153} INFO - Started process (PID=23458) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:39.427-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:32:39.428-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:39.428-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:39.654-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:32:39.901-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:39.901-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:32:39.909-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:32:39.909-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:32:39.917-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.492 seconds
+[2023-10-24T20:33:10.944-0700] {processor.py:153} INFO - Started process (PID=23497) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:10.951-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:33:10.951-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:10.951-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:11.225-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:11.483-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:11.483-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:33:11.492-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:11.491-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:33:11.498-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.555 seconds
+[2023-10-24T20:33:42.499-0700] {processor.py:153} INFO - Started process (PID=23536) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:42.502-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:33:42.502-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:42.502-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:42.764-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:33:43.027-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:43.026-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:33:43.034-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:33:43.034-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:33:43.041-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.542 seconds
+[2023-10-24T20:34:13.986-0700] {processor.py:153} INFO - Started process (PID=23572) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:13.990-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:34:13.990-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:13.990-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:14.274-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:14.530-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:14.530-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:34:14.538-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:14.537-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:34:14.545-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.560 seconds
+[2023-10-24T20:34:45.519-0700] {processor.py:153} INFO - Started process (PID=23613) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:45.525-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:34:45.525-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:45.525-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:45.850-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:34:46.107-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:46.107-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:34:46.114-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:34:46.114-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:34:46.121-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.603 seconds
+[2023-10-24T20:35:17.138-0700] {processor.py:153} INFO - Started process (PID=23654) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:17.144-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:35:17.144-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:17.144-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:17.451-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:17.704-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:17.704-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:35:17.711-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:17.710-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:35:17.717-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.580 seconds
+[2023-10-24T20:35:48.628-0700] {processor.py:153} INFO - Started process (PID=23696) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:48.634-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:35:48.634-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:48.634-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:48.979-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:35:49.255-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:49.255-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:35:49.265-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:35:49.265-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:35:49.273-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.646 seconds
+[2023-10-24T20:36:20.391-0700] {processor.py:153} INFO - Started process (PID=23754) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:36:20.399-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:36:20.399-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:20.399-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:36:20.679-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:36:20.963-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:20.963-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:36:20.971-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:36:20.971-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:36:20.979-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.590 seconds
+[2023-10-24T20:37:01.387-0700] {processor.py:153} INFO - Started process (PID=23868) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:01.394-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:37:01.395-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:01.394-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:01.570-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:01.595-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:01.594-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:37:01.819-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:01.819-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:37:01.827-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.441 seconds
+[2023-10-24T20:37:33.348-0700] {processor.py:153} INFO - Started process (PID=23917) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:33.350-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:37:33.351-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:33.351-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:33.556-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:37:33.813-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:33.813-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:37:33.820-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:37:33.820-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:37:33.830-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.483 seconds
+[2023-10-24T20:38:05.616-0700] {processor.py:153} INFO - Started process (PID=23977) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:05.625-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:38:05.625-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:05.625-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:05.832-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:06.082-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:06.082-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:38:06.089-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:06.089-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:38:06.095-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.480 seconds
+[2023-10-24T20:38:36.928-0700] {processor.py:153} INFO - Started process (PID=24030) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:36.932-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:38:36.932-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:36.932-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:37.119-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:38:37.372-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:37.372-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:38:37.379-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:38:37.379-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:38:37.386-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.459 seconds
+[2023-10-24T20:39:12.982-0700] {processor.py:153} INFO - Started process (PID=24131) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:12.988-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:39:12.988-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:12.988-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:13.182-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:13.431-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:13.431-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:39:13.437-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:13.437-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:39:13.444-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.463 seconds
+[2023-10-24T20:39:44.576-0700] {processor.py:153} INFO - Started process (PID=24183) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:44.579-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:39:44.579-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:44.579-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:44.744-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:39:45.007-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:45.007-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:39:45.014-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:39:45.014-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:39:45.020-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.444 seconds
+[2023-10-24T20:40:15.699-0700] {processor.py:153} INFO - Started process (PID=24222) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:15.704-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:40:15.704-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:15.704-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:15.899-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:16.200-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:16.200-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:40:16.207-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:16.207-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:40:16.214-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.516 seconds
+[2023-10-24T20:40:46.858-0700] {processor.py:153} INFO - Started process (PID=24267) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:46.864-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:40:46.864-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:46.864-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:47.032-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:40:47.315-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:47.315-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:40:47.323-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:40:47.323-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:40:47.329-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.472 seconds
+[2023-10-24T20:41:18.011-0700] {processor.py:153} INFO - Started process (PID=24303) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:18.016-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:41:18.017-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:18.017-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:18.259-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:18.610-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:18.610-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:41:18.620-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:18.620-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:41:18.640-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.630 seconds
+[2023-10-24T20:41:49.403-0700] {processor.py:153} INFO - Started process (PID=24339) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:49.410-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:41:49.410-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:49.410-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:49.589-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:41:49.849-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:49.849-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:41:49.857-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:41:49.857-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:41:49.865-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.462 seconds
+[2023-10-24T20:42:20.606-0700] {processor.py:153} INFO - Started process (PID=24385) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:20.610-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:42:20.610-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:20.610-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:20.792-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:21.072-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:21.071-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:42:21.079-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:21.078-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:42:21.085-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.479 seconds
+[2023-10-24T20:42:53.046-0700] {processor.py:153} INFO - Started process (PID=24438) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:53.053-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:42:53.053-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:53.053-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:53.263-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:42:53.582-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:53.582-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:42:53.588-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:42:53.588-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:42:53.595-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.549 seconds
+[2023-10-24T20:43:24.786-0700] {processor.py:153} INFO - Started process (PID=24548) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:24.792-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:43:24.792-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:24.792-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:24.987-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:25.249-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:25.248-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:43:25.255-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:25.255-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:43:25.262-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.478 seconds
+[2023-10-24T20:43:56.362-0700] {processor.py:153} INFO - Started process (PID=24607) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:56.368-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:43:56.368-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:56.368-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:56.578-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:43:56.829-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:56.829-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:43:56.836-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:43:56.836-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:43:56.842-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.481 seconds
+[2023-10-24T20:44:27.625-0700] {processor.py:153} INFO - Started process (PID=24651) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:44:27.629-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:44:27.629-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:27.629-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:44:27.797-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:44:28.041-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:28.041-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:44:28.048-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:28.048-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:44:28.055-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.429 seconds
+[2023-10-24T20:44:59.740-0700] {processor.py:153} INFO - Started process (PID=24689) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:44:59.746-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:44:59.747-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:44:59.747-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:44:59.918-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:45:00.186-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:00.186-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:45:00.192-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:00.192-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:45:00.199-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.460 seconds
+[2023-10-24T20:45:30.982-0700] {processor.py:153} INFO - Started process (PID=24725) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:45:30.988-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:45:30.988-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:30.988-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:45:31.164-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:45:31.428-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:31.428-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:45:31.434-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:45:31.434-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:45:31.441-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.460 seconds
+[2023-10-24T20:46:02.187-0700] {processor.py:153} INFO - Started process (PID=24765) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:02.193-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:46:02.193-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:02.193-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:02.356-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:02.602-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:02.602-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:46:02.608-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:02.608-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:46:02.616-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.429 seconds
+[2023-10-24T20:46:33.397-0700] {processor.py:153} INFO - Started process (PID=24801) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:33.405-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:46:33.405-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:33.405-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:33.581-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:46:33.824-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:33.824-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:46:33.831-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:46:33.831-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:46:33.837-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.441 seconds
+[2023-10-24T20:47:04.664-0700] {processor.py:153} INFO - Started process (PID=24837) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:04.670-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:47:04.670-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:04.670-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:04.837-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:05.083-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:05.083-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:47:05.089-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:05.089-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:47:05.097-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.433 seconds
+[2023-10-24T20:47:36.855-0700] {processor.py:153} INFO - Started process (PID=24875) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:36.861-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:47:36.861-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:36.861-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:37.021-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:47:37.326-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:37.326-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:47:37.334-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:47:37.334-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:47:37.341-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.487 seconds
+[2023-10-24T20:48:08.271-0700] {processor.py:153} INFO - Started process (PID=24911) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:08.273-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:48:08.274-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:08.274-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:08.476-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:08.711-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:08.711-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:48:08.718-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:08.718-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:48:08.724-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.453 seconds
+[2023-10-24T20:48:39.896-0700] {processor.py:153} INFO - Started process (PID=24949) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:39.898-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:48:39.898-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:39.898-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:40.095-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:48:40.335-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:40.335-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:48:40.341-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:48:40.341-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:48:40.348-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.452 seconds
+[2023-10-24T20:49:11.231-0700] {processor.py:153} INFO - Started process (PID=24985) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:11.236-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:49:11.237-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:11.237-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:11.419-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:11.668-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:11.668-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:49:11.675-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:11.675-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:49:11.681-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.451 seconds
+[2023-10-24T20:49:42.853-0700] {processor.py:153} INFO - Started process (PID=25021) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:42.859-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:49:42.859-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:42.859-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:43.005-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:49:43.256-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:43.256-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:49:43.263-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:49:43.263-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:49:43.269-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.417 seconds
+[2023-10-24T20:50:14.147-0700] {processor.py:153} INFO - Started process (PID=25057) to work on /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:50:14.153-0700] {processor.py:743} INFO - Processing file /Users/anishmore/airflow/dags/basic_etl_dag.py for tasks to queue
+[2023-10-24T20:50:14.153-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:14.153-0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:50:14.345-0700] {processor.py:753} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/anishmore/airflow/dags/basic_etl_dag.py
+[2023-10-24T20:50:14.580-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:14.580-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-24T20:50:14.587-0700] {logging_mixin.py:137} INFO - [2023-10-24T20:50:14.587-0700] {dag.py:3437} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2023-10-24T20:50:14.594-0700] {processor.py:175} INFO - Processing /Users/anishmore/airflow/dags/basic_etl_dag.py took 0.448 seconds

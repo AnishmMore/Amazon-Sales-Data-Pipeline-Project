@@ -1,0 +1,28 @@
+[2023-10-24T20:07:30.195-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: transform_dag.transform_task manual__2023-10-25T03:07:28.184240+00:00 [queued]>
+[2023-10-24T20:07:30.199-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: transform_dag.transform_task manual__2023-10-25T03:07:28.184240+00:00 [queued]>
+[2023-10-24T20:07:30.199-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:07:30.199-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-10-24T20:07:30.199-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:07:30.203-0700] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): transform_task> on 2023-10-25 03:07:28.184240+00:00
+[2023-10-24T20:07:30.205-0700] {standard_task_runner.py:55} INFO - Started process 21111 to run task
+[2023-10-24T20:07:30.208-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2023-10-25T03:07:28.184240+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/autmate_transform_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpypjcvqjw']
+[2023-10-24T20:07:30.209-0700] {standard_task_runner.py:83} INFO - Job 25: Subtask transform_task
+[2023-10-24T20:07:30.255-0700] {task_command.py:388} INFO - Running <TaskInstance: transform_dag.transform_task manual__2023-10-25T03:07:28.184240+00:00 [running]> on host anishs-air.lan
+[2023-10-24T20:07:30.276-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=transform_dag
+AIRFLOW_CTX_TASK_ID=transform_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-25T03:07:28.184240+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-25T03:07:28.184240+00:00
+[2023-10-24T20:07:30.287-0700] {logging_mixin.py:137} WARNING - /Users/anishmore/airflow/dags/autmate_transform_dag.py:16 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-10-24T20:07:30.291-0700] {python.py:177} INFO - Done. Returned value was: None
+[2023-10-24T20:07:30.293-0700] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=transform_dag, task_id=transform_task, execution_date=20231025T030728, start_date=20231025T030730, end_date=20231025T030730
+[2023-10-24T20:07:30.312-0700] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-10-24T20:07:30.317-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

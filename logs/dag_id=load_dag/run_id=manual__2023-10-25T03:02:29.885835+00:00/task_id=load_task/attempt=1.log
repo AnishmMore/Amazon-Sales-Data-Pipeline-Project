@@ -1,0 +1,27 @@
+[2023-10-24T20:02:31.226-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: load_dag.load_task manual__2023-10-25T03:02:29.885835+00:00 [queued]>
+[2023-10-24T20:02:31.234-0700] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: load_dag.load_task manual__2023-10-25T03:02:29.885835+00:00 [queued]>
+[2023-10-24T20:02:31.234-0700] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:02:31.234-0700] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-10-24T20:02:31.234-0700] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-24T20:02:31.240-0700] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): load_task> on 2023-10-25 03:02:29.885835+00:00
+[2023-10-24T20:02:31.242-0700] {standard_task_runner.py:55} INFO - Started process 20543 to run task
+[2023-10-24T20:02:31.246-0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2023-10-25T03:02:29.885835+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/automate_load_dag.py', '--cfg-path', '/var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T/tmpf1jkrer2']
+[2023-10-24T20:02:31.247-0700] {standard_task_runner.py:83} INFO - Job 24: Subtask load_task
+[2023-10-24T20:02:31.271-0700] {task_command.py:388} INFO - Running <TaskInstance: load_dag.load_task manual__2023-10-25T03:02:29.885835+00:00 [running]> on host anishs-air.lan
+[2023-10-24T20:02:31.290-0700] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=load_dag
+AIRFLOW_CTX_TASK_ID=load_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-25T03:02:29.885835+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-10-25T03:02:29.885835+00:00
+[2023-10-24T20:02:31.293-0700] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/jh/g6c8fm7j3x148qd22mrgmrsw0000gn/T
+[2023-10-24T20:02:31.294-0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo -e ".separator ","\n.import --skip 1  /Users/anishmore/airflow/temp/manual/top-level-domain-names_transformed.csv top_level_domains" | sqlite3 /Users/anishmore/airflow/store.db']
+[2023-10-24T20:02:31.297-0700] {subprocess.py:86} INFO - Output:
+[2023-10-24T20:02:31.314-0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-24T20:02:31.320-0700] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=load_dag, task_id=load_task, execution_date=20231025T030229, start_date=20231025T030231, end_date=20231025T030231
+[2023-10-24T20:02:31.347-0700] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-10-24T20:02:31.353-0700] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

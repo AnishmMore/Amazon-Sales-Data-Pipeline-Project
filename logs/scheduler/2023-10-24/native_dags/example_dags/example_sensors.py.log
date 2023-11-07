@@ -1,0 +1,25 @@
+[2023-10-23T18:25:39.536-0700] {processor.py:153} INFO - Started process (PID=63975) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:25:39.544-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-23T18:25:39.544-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:39.544-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:25:39.682-0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:25:40.050-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.050-0700] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2023-10-23T18:25:40.053-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.053-0700] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2023-10-23T18:25:40.055-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.055-0700] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2023-10-23T18:25:40.055-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.055-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:25:40.059-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.059-0700] {dag.py:2711} INFO - Creating ORM DAG for example_sensors
+[2023-10-23T18:25:40.062-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:25:40.062-0700] {dag.py:3437} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-23T18:25:40.069-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.534 seconds
+[2023-10-23T18:26:52.211-0700] {processor.py:153} INFO - Started process (PID=64189) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:26:52.219-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-23T18:26:52.219-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:52.219-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:26:52.289-0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:26:52.727-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:52.727-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:26:52.733-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:26:52.733-0700] {dag.py:3437} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-23T18:26:52.741-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.531 seconds
+[2023-10-23T18:28:19.340-0700] {processor.py:153} INFO - Started process (PID=64338) to work on /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:28:19.342-0700] {processor.py:743} INFO - Processing file /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-23T18:28:19.342-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:19.342-0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:28:19.413-0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-23T18:28:19.769-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:19.768-0700] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-10-23T18:28:19.775-0700] {logging_mixin.py:137} INFO - [2023-10-23T18:28:19.775-0700] {dag.py:3437} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-23T18:28:19.782-0700] {processor.py:175} INFO - Processing /opt/homebrew/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.442 seconds
